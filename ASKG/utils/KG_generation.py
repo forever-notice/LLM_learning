@@ -61,7 +61,7 @@ IMPORTANT: Do not include backticks (```) or yaml tags in your response. Just re
     start_time = time.time()
     try:
         response = chat_completion_with_backoff(
-            model="gpt-4",  # Can be adjusted based on needs
+            model="gpt-4o",  # Can be adjusted based on needs
             messages=[
                 {"role": "system", "content": "You are a commonsense knowledge base specialized in creating knowledge graphs for human actions."},
                 {"role": "user", "content": prompt}
