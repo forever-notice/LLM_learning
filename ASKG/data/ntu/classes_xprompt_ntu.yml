@@ -1,0 +1,1775 @@
+drink water:
+  label: drink water
+  xprompt_oo:
+    - where water is contained in a cup
+    - where water enters the mouth
+    - where a cup contacts the mouth
+  xprompt_ao:
+    - which involves water
+    - which uses a cup
+    - which uses the mouth
+  xprompt_aa:
+    - where grasping precedes lifting
+    - where lifting precedes tilting
+    - where tilting precedes sipping
+    - where sipping precedes swallowing
+
+eat meal:
+  label: eat meal
+  xprompt_oo:
+    - where food is contacted by a utensil
+    - where food enters the mouth
+    - where a utensil contacts the mouth
+  xprompt_ao:
+    - which has food as the patient
+    - which uses a utensil as a tool
+    - which uses the mouth as a body part
+  xprompt_aa:
+    - where cutting precedes scooping
+    - where scooping precedes lifting
+    - where lifting precedes biting
+    - where biting precedes chewing
+    - where chewing precedes swallowing
+
+brush teeth:
+  label: brush teeth
+  xprompt_oo:
+    - where toothpaste is applied to a toothbrush
+    - where a toothbrush comes into contact with teeth
+  xprompt_ao:
+    - which uses a toothbrush as a tool
+    - which uses toothpaste as a material
+    - which acts on teeth
+  xprompt_aa:
+    - starting with applying toothpaste
+    - where applying toothpaste is followed by grasping
+    - where grasping is followed by scrubbing
+    - where scrubbing is followed by rinsing
+    - where rinsing is followed by spitting
+
+# This is an example of brushing hair...
+brush hair:
+  label: brush hair
+  xprompt_oo:
+    - where a brush contacts hair
+    - where a hand holds the brush
+  xprompt_ao:
+    - using a brush as a tool
+    - acting on the hair
+    - using the hand as a body part
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning precedes stroking
+    - where stroking precedes detangling
+
+# This is an example of dropping...
+drop:
+  label: drop
+  xprompt_oo:
+    - where an object is released from a hand
+    - where an object falls to a surface
+  xprompt_ao:
+    - with an object as the patient
+    - using a hand as the body part
+    - with a surface as the destination
+  xprompt_aa:
+    - following holding an object
+    - where releasing an object comes before it falling
+
+pick up:
+  label: pick up
+  xprompt_oo:
+    - where an object is grasped by a hand
+    - where an object is removed from a surface
+  xprompt_ao:
+    - with the object as the patient
+    - using the hand as the body part
+    - with the surface as the source
+  xprompt_aa:
+    - starting with reaching
+    - where reaching precedes grasping
+    - where grasping comes before lifting
+
+throw:
+  label: throw
+  xprompt_oo:
+    - where an object is propelled by the hand
+    - where an object moves toward a target
+  xprompt_ao:
+    - involving an object as the patient
+    - which uses the hand as the body part
+    - with a destination as the target
+  xprompt_aa:
+    - starting with grasping
+    - aiming before propelling
+    - releasing after propelling
+
+# This is an example of sitting down...
+sit down:
+  label: sit down
+  xprompt_oo:
+    - where the body contacts the chair
+    - where the legs bend the body
+  xprompt_ao:
+    - which has a destination chair
+    - which uses the legs as a body part
+    - which positions the body
+  xprompt_aa:
+    - where approaching precedes positioning
+    - where positioning precedes bending
+    - where bending precedes lowering
+
+# This is an example of standing up...
+stand up:
+  label: stand up
+  xprompt_oo:
+    - where the body is lifted by the legs
+    - where the body separates from the seat
+  xprompt_ao:
+    - which positions the body
+    - which uses the legs
+    - which has a source as the seat
+  xprompt_aa:
+    - where shifting precedes pushing
+    - where pushing precedes straightening
+    - where straightening precedes balancing
+
+# This is an example of clapping...
+clapping:
+  label: clapping
+  xprompt_oo:
+    - where palms come into contact with each other
+    - where hands produce sound
+  xprompt_ao:
+    - which involves using hands
+    - which produces sound
+  xprompt_aa:
+    - where separating comes before aligning
+    - where aligning comes before impacting
+    - where impacting comes before repeating
+
+reading:
+  label: reading
+  xprompt_oo:
+    - where a book is held by hands
+    - where a book is viewed by eyes
+  xprompt_ao:
+    - which involves a book
+    - which uses eyes
+    - which uses hands
+  xprompt_aa:
+    - starting with holding
+    - where holding precedes focusing
+    - where focusing comes before scanning
+    - where scanning precedes comprehending
+    - where comprehending comes before turning
+
+writing:
+  label: writing
+  xprompt_oo:
+    - where a pen is held by a hand
+    - where a pen contacts paper
+  xprompt_ao:
+    - which uses a pen as a tool
+    - which has paper as a destination
+    - which involves the hand as a body part
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning precedes pressing
+    - where pressing comes before moving
+    - where moving precedes lifting
+
+tear up paper:
+  label: tear up paper
+  xprompt_oo:
+    - where paper is grasped by hands
+    - where paper is separated by hands
+  xprompt_ao:
+    - which has paper as the patient
+    - which uses hands as the body part
+  xprompt_aa:
+    - starting with grasping
+    - where positioning comes before pulling
+    - where pulling precedes separating
+
+put on jacket:
+  label: put on jacket
+  xprompt_oo:
+    - where a jacket covers the body
+    - where arms are inserted into a jacket
+  xprompt_ao:
+    - which has a jacket as the patient
+    - which has the body as the destination
+    - which uses the arms as the body part
+  xprompt_aa:
+    - starting with grasping
+    - where aligning precedes inserting
+    - where inserting comes before pulling
+    - where pulling precedes adjusting
+
+# This is an example of taking off a jacket...
+take off jacket:
+  label: take off jacket
+  xprompt_oo:
+    - where a jacket is removed from the body
+    - where arms are withdrawn from a jacket
+  xprompt_ao:
+    - involving a jacket as the patient
+    - requiring the body as the source
+    - utilizing arms as the body part
+  xprompt_aa:
+    - starting with grasping
+    - where grasping precedes pulling
+    - where pulling comes before withdrawing
+    - where withdrawing precedes removing
+
+put on a shoe:
+  label: put on a shoe
+  xprompt_oo:
+    - where a shoe covers a foot
+    - where a shoe is manipulated by a hand
+  xprompt_ao:
+    - which has a shoe as the item being put on
+    - which has the foot as the destination
+    - which uses the hand as the body part for putting on the shoe
+  xprompt_aa:
+    - starting with grasping
+    - where positioning comes before inserting
+    - where inserting is done before adjusting
+    - where adjusting precedes securing
+
+take off a shoe:
+  label: take off a shoe
+  xprompt_oo:
+    - where a shoe is removed from a foot
+    - where a shoe is manipulated by a hand
+  xprompt_ao:
+    - with a shoe as the patient
+    - with a foot as the source
+    - using a hand as the body part
+  xprompt_aa:
+    - starting by loosening
+    - where loosening is followed by grasping
+    - where grasping precedes pulling
+    - where pulling comes before removing
+
+put on glasses:
+  label: put on glasses
+  xprompt_oo:
+    - where glasses rest on the face
+    - where glasses are manipulated by hands
+  xprompt_ao:
+    - which has glasses as the patient
+    - which has the face as the destination
+    - which uses hands
+  xprompt_aa:
+    - where grasping precedes unfolding
+    - where unfolding precedes positioning
+    - where positioning comes before placing
+    - where placing comes before adjusting
+
+take off glasses:
+  label: take off glasses
+  xprompt_oo:
+    - where glasses are removed from the face
+    - where glasses are grasped by hands
+  xprompt_ao:
+    - involving glasses as the patient
+    - requiring the face as the source
+    - utilizing hands as the body part
+  xprompt_aa:
+    - starting with grasping
+    - where grasping precedes lifting
+    - where lifting comes before removing
+    - where removing precedes folding
+
+putting on a hat/cap:
+  label: put on a hat/cap
+  xprompt_oo:
+    - where a hat covers the head
+    - where a hat is manipulated by hands
+  xprompt_ao:
+    - involving a hat as the patient
+    - with the destination being the head
+    - using hands as the body part
+  xprompt_aa:
+    - starting with grasping
+    - where positioning comes before placing
+    - where placing precedes adjusting
+
+take off a hat/cap:
+  label: take off a hat/cap
+  xprompt_oo:
+    - where a hat is removed from the head
+    - where a hat is grasped by hands
+  xprompt_ao:
+    - involving a hat as the patient
+    - involving the head as the source
+    - involving hands as the body part used
+  xprompt_aa:
+    - where grasping precedes lifting
+    - where lifting precedes removing
+
+cheer up:
+  label: cheer up
+  xprompt_oo:
+    - where arms express emotion
+    - where the face shows happiness
+    - where the voice produces sound
+  xprompt_ao:
+    - which involves using arms
+    - which involves using the face
+    - which involves using the voice
+  xprompt_aa:
+    - where smiling precedes raising
+    - where raising precedes shouting
+    - where shouting precedes celebrating
+
+# This is an example of hand waving...
+hand waving:
+  label: hand waving
+  xprompt_oo:
+    - where a hand is attached to an arm
+    - where a hand moves through the air
+  xprompt_ao:
+    - which involves using the hand
+    - which involves using the arm
+  xprompt_aa:
+    - where raising comes before extending
+    - where extending precedes rotating
+    - where rotating comes before repeating
+
+kicking something:
+  label: kicking something
+  xprompt_oo:
+    - where a foot is attached to a leg
+    - where a foot impacts an object
+  xprompt_ao:
+    - using the foot
+    - using the leg
+    - with the object as the patient
+  xprompt_aa:
+    - where positioning precedes aiming
+    - where aiming comes before extending
+    - where extending precedes impacting
+    - where impacting precedes retracting
+
+# This is an example of reaching into a pocket...
+reach into pocket:
+  label: reach into pocket
+  xprompt_oo:
+    - where a hand enters a pocket
+    - where a hand searches for an item
+  xprompt_ao:
+    - which involves using a hand
+    - which has a pocket as the destination
+    - which seeks an item
+  xprompt_aa:
+    - where locating precedes extending
+    - where extending comes before inserting
+    - where inserting precedes searching
+
+hopping:
+  label: hopping
+  xprompt_oo:
+    - where legs propel the body
+    - where feet leave the ground
+  xprompt_ao:
+    - which uses legs
+    - which uses feet
+    - which moves the body
+  xprompt_aa:
+    - bending before pushing
+    - pushing before lifting
+    - lifting before landing
+
+jump up:
+  label: jump up
+  xprompt_oo:
+    - where legs propel the body
+    - where arms balance the body
+  xprompt_ao:
+    - which uses the legs
+    - which involves moving the body
+    - which uses the arms
+  xprompt_aa:
+    - starting with bending
+    - where bending precedes crouching
+    - where crouching comes before pushing
+    - where pushing precedes extending
+    - where extending comes before landing
+
+phone call:
+  label: phone call
+  xprompt_oo:
+    - where the phone contacts the ear
+    - where the mouth speaks into the phone
+  xprompt_ao:
+    - which uses a phone as a tool
+    - which involves using the ear
+    - which involves using the mouth
+  xprompt_aa:
+    - starting with dialing
+    - where dialing precedes holding the phone
+    - where holding the phone comes before speaking
+    - where speaking precedes listening
+    - where listening comes before ending the call
+
+play with phone/tablet:
+  label: play with phone/tablet
+  xprompt_oo:
+    - where fingers touch the screen
+    - where the screen is a part of the device
+  xprompt_ao:
+    - which involves using the device
+    - which involves using fingers
+    - which involves interacting with the screen
+  xprompt_aa:
+    - where holding precedes tapping
+    - where tapping precedes swiping
+    - where swiping precedes viewing
+
+# This is an example of typing on a keyboard...
+type on a keyboard:
+  label: type on a keyboard
+  xprompt_oo:
+    - where fingers press the keyboard
+    - where the keyboard inputs to the screen
+  xprompt_ao:
+    - which uses the keyboard as a tool
+    - which involves the fingers as the body part used
+    - which displays on the screen
+  xprompt_aa:
+    - where positioning precedes pressing
+    - where pressing precedes releasing
+    - where releasing precedes repeating
+
+point to something:
+  label: point to something
+  xprompt_oo:
+    - where a finger is part of a hand
+    - where a finger directs at an object
+  xprompt_ao:
+    - which involves using a finger
+    - which involves using a hand
+    - which indicates an object
+  xprompt_aa:
+    - where extending precedes aiming
+    - where aiming precedes indicating
+
+# This is an example of taking a selfie...
+taking a selfie:
+  label: taking a selfie
+  xprompt_oo:
+    - where a phone is held by the arm
+    - where a phone captures the face
+  xprompt_ao:
+    - which involves using a phone
+    - which involves using an arm
+    - which captures the face
+  xprompt_aa:
+    - where holding precedes positioning
+    - where positioning precedes posing
+    - where posing precedes capturing
+
+# This is an example of checking the time (from watch)...
+check time (from watch):
+  label: check time (from watch)
+  xprompt_oo:
+    - where a watch is worn on the wrist
+    - where a watch is viewed by the eyes
+  xprompt_ao:
+    - which uses a watch as a tool
+    - which involves the wrist
+    - which uses the eyes as a body part
+  xprompt_aa:
+    - where positioning precedes focusing
+    - where focusing precedes observing
+    - where observing precedes processing
+
+rub two hands:
+  label: rub two hands
+  xprompt_oo:
+    - where hands come into contact with each other
+    - where palms rub against each other
+  xprompt_ao:
+    - which involves using hands
+    - which generates friction
+  xprompt_aa:
+    - where positioning precedes pressing
+    - where pressing precedes moving
+    - where moving precedes repeating
+
+# This is an example of nodding head/bowing...
+nod head/bow:
+  label: nod head/bow
+  xprompt_oo:
+    - where the head is connected to the neck
+    - where the head tilts with the body
+  xprompt_ao:
+    - which uses the head
+    - which uses the neck
+    - which involves the body
+  xprompt_aa:
+    - where tilting precedes lowering
+    - where lowering precedes raising
+    - where raising precedes repeating
+
+# This is an example of shaking head...
+shake head:
+  label: shake head
+  xprompt_oo:
+    - where the head is rotated by the neck
+    - where the head moves horizontally
+  xprompt_ao:
+    - which involves the head
+    - which involves the neck
+  xprompt_aa:
+    - starting with turning
+    - where turning precedes rotating
+    - where rotating precedes reversing
+    - where reversing precedes repeating
+
+# This is an example of wiping face...
+wiping face:
+  label: wipe face
+  xprompt_oo:
+    - where the hand contacts the face
+    - where a tissue is held by the hand
+    - where a tissue wipes the face
+  xprompt_ao:
+    - which uses the hand
+    - which acts on the face
+    - which may use a tissue
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning precedes contacting
+    - where contacting precedes moving
+
+salute:
+  label: salute
+  xprompt_oo:
+    - where a hand contacts the forehead
+    - where a hand is connected to an arm
+  xprompt_ao:
+    - which involves using the hand
+    - which targets the forehead
+    - which uses the arm
+  xprompt_aa:
+    - starting with raising
+    - where raising precedes positioning
+    - where positioning comes before touching
+    - where touching precedes holding
+    - where holding comes before lowering
+
+put palms together:
+  label: put palms together
+  xprompt_oo:
+    - where palms are part of hands
+    - where palms make contact with each other
+  xprompt_ao:
+    - involving palms
+    - involving hands
+  xprompt_aa:
+    - starting with raising
+    - where raising precedes positioning
+    - where positioning comes before aligning
+    - where aligning precedes pressing
+
+# This is an example of crossing hands in front...
+cross hands in front:
+  label: cross hands in front
+  xprompt_oo:
+    - where hands are attached to arms
+    - where hands are positioned in front of the chest
+  xprompt_ao:
+    - which uses hands
+    - which uses arms
+    - which positions near the chest
+  xprompt_aa:
+    - where raising precedes extending
+    - where extending precedes overlapping
+    - where overlapping precedes positioning
+
+# This is an example of sneezing/coughing...
+sneeze/cough:
+  label: sneeze/cough
+  xprompt_oo:
+    - where the mouth expels air
+    - where the hand covers the mouth
+  xprompt_ao:
+    - which uses the mouth
+    - which may use the hand
+    - which expels air
+  xprompt_aa:
+    - where inhaling precedes contracting
+    - where contracting precedes expelling
+    - where expelling precedes covering
+
+# This is an example of staggering...
+staggering:
+  label: staggering
+  xprompt_oo:
+    - where legs support the body
+    - where feet balance the body
+  xprompt_ao:
+    - which involves the body
+    - which involves using the legs
+    - which involves using the feet
+  xprompt_aa:
+    - where swaying precedes taking a step
+    - where taking a step comes before wobbling
+    - where wobbling precedes recovering
+
+falling down:
+  label: falling down
+  xprompt_oo:
+    - where the body loses balance
+    - where the body contacts the ground
+  xprompt_ao:
+    - which involves the body
+    - which has the ground as the destination
+    - which causes the body to lose balance
+  xprompt_aa:
+    - where losing balance precedes descending
+    - where descending comes before impacting
+    - where impacting precedes lying
+
+headache:
+  label: headache
+  xprompt_oo:
+    - where hands touch the head
+    - where hands press the temples
+  xprompt_ao:
+    - which affects the head
+    - which involves hands
+    - which focuses on temples
+  xprompt_aa:
+    - where grimacing precedes touching the head
+    - where touching the head comes before massaging it
+    - where massaging precedes pressing the temples
+
+# This is an example of chest pain...
+chest pain:
+  label: chest pain
+  xprompt_oo:
+    - where a hand touches the chest
+    - where the chest contains the heart
+  xprompt_ao:
+    - which affects the chest
+    - which involves the hand
+    - which may relate to the heart
+  xprompt_aa:
+    - where a grimace precedes touching the chest
+    - where touching the chest precedes pressing
+    - where pressing precedes rubbing
+
+back pain:
+  label: back pain
+  xprompt_oo:
+    - where hands reach for the back
+    - where the back contains the spine
+  xprompt_ao:
+    - which affects the back
+    - which involves hands
+    - which relates to the spine
+  xprompt_aa:
+    - where wincing precedes reaching
+    - where reaching precedes touching
+    - where touching precedes rubbing
+
+# This is an example of neck pain...
+neck pain:
+  label: neck pain
+  xprompt_oo:
+    - where the hand touches the neck
+    - where the neck contains muscles
+  xprompt_ao:
+    - which affects the neck
+    - which involves the hand
+    - which relates to muscles
+  xprompt_aa:
+    - where grimacing precedes reaching
+    - where reaching precedes touching
+    - where touching precedes massaging
+
+nausea/vomiting:
+  label: nausea/vomiting
+  xprompt_oo:
+    - where the stomach connects to the mouth
+    - where the hand covers the mouth
+  xprompt_ao:
+    - which affects the stomach
+    - which involves the mouth
+    - which may use the hand
+  xprompt_aa:
+    - where a grimace precedes bending
+    - where bending comes before heaving
+    - where heaving precedes expelling
+
+fan self:
+  label: fan self
+  xprompt_oo:
+    - where a hand moves the air
+    - where the air cools the face
+  xprompt_ao:
+    - using the hand as a body part
+    - targeting the face
+    - moving the air
+  xprompt_aa:
+    - raising before positioning
+    - positioning before waving
+    - waving before repeating
+
+# This is an example of punching/slapping...
+punch/slap:
+  label: punch/slap
+  xprompt_oo:
+    - where a hand is attached to an arm
+    - where a hand impacts a target
+  xprompt_ao:
+    - which uses the hand as a body part
+    - which uses the arm as a body part
+    - which affects a target
+  xprompt_aa:
+    - where aiming precedes extending
+    - where extending precedes impacting
+    - where impacting precedes retracting
+
+# This is an example of kicking...
+kicking:
+  label: kicking
+  xprompt_oo:
+    - involving the foot attached to the leg
+    - where the foot impacts a target
+  xprompt_ao:
+    - using the foot as a body part
+    - using the leg as a body part
+    - affecting a target
+  xprompt_aa:
+    - where balancing precedes aiming
+    - where aiming precedes extending
+    - where extending precedes impacting
+    - where impacting precedes retracting
+
+pushing:
+  label: pushing
+  xprompt_oo:
+    - where hands are attached to arms
+    - where hands make contact with an object
+  xprompt_ao:
+    - which involves using hands
+    - which involves using arms
+    - which affects an object
+  xprompt_aa:
+    - where positioning comes before making contact
+    - where making contact precedes exerting force
+    - where exerting force comes before moving
+
+pat on back:
+  label: pat on back
+  xprompt_oo:
+    - where a hand contacts the back
+    - where the back belongs to a person
+  xprompt_ao:
+    - which involves using the hand
+    - which targets the back
+    - which is directed at a person
+  xprompt_aa:
+    - starting with reaching
+    - where contacting precedes tapping
+    - where tapping comes before retracting
+
+# This is an example of pointing a finger...
+point finger:
+  label: point finger
+  xprompt_oo:
+    - where a finger is a part of a hand
+    - where a finger is directed at a target
+  xprompt_ao:
+    - which uses the finger as a body part
+    - which uses the hand as a body part
+    - which indicates a target
+  xprompt_aa:
+    - where raising precedes extending the finger
+    - where extending the finger precedes aiming
+    - where aiming precedes holding the pointed position
+
+hugging:
+  label: hugging
+  xprompt_oo:
+    - where arms encircle a person
+    - where a body contacts a person
+  xprompt_ao:
+    - which involves using arms
+    - which involves the body
+    - which has a recipient who is a person
+  xprompt_aa:
+    - starting with approaching
+    - where approaching precedes extending
+    - where extending precedes embracing
+    - where embracing precedes holding
+    - where holding precedes releasing
+
+giving object:
+  label: giving object
+  xprompt_oo:
+    - where an object is held by hands
+    - where an object is transferred to a recipient
+  xprompt_ao:
+    - involving the patient object
+    - using hands as the body part
+    - having a recipient for the object
+  xprompt_aa:
+    - starting with holding the object
+    - where holding the object is followed by extending it
+    - where extending the object precedes offering it
+    - where offering the object comes before releasing it
+
+touch pocket:
+  label: touch pocket
+  xprompt_oo:
+    - where a pocket is part of clothing
+    - where a hand contacts a pocket
+  xprompt_ao:
+    - which uses the hand
+    - which targets a pocket
+    - which relates to clothing
+  xprompt_aa:
+    - where reaching precedes locating
+    - where locating precedes contacting
+    - where contacting precedes patting
+
+# This is an example of shaking hands...
+shaking hands:
+  label: shaking hands
+  xprompt_oo:
+    - where hands make contact with each other
+    - where hands are attached to arms
+  xprompt_ao:
+    - which uses hands as a body part
+    - which uses arms as a body part
+    - which involves persons
+  xprompt_aa:
+    - where extending comes before grasping
+    - where grasping precedes pumping
+    - where pumping comes before releasing
+
+walking towards:
+  label: walking towards
+  xprompt_oo:
+    - where legs move feet
+    - where feet approach a destination
+  xprompt_ao:
+    - which uses legs
+    - which uses feet
+    - which has a destination
+  xprompt_aa:
+    - where stepping precedes finding balance
+    - where finding balance precedes advancing
+    - where advancing precedes approaching
+
+walking apart:
+  label: walking apart
+  xprompt_oo:
+    - where legs move feet
+    - where feet increase distance
+  xprompt_ao:
+    - which involves using legs
+    - which involves using feet
+    - which increases distance
+  xprompt_aa:
+    - where turning precedes taking a step
+    - where taking a step precedes moving
+    - where moving precedes separating
+
+put on headphone:
+  label: put on headphone
+  xprompt_oo:
+    - where headphones cover the ears
+    - where headphones are manipulated by hands
+  xprompt_ao:
+    - involving headphones
+    - targeting ears
+    - using hands
+  xprompt_aa:
+    - grasping before positioning
+    - positioning before placing
+    - placing before adjusting
+
+take off headphone:
+  label: take off headphone
+  xprompt_oo:
+    - where headphones are removed from the ears
+    - where headphones are grasped by the hands
+  xprompt_ao:
+    - involving headphones
+    - sourced from the ears
+    - using hands as body parts
+  xprompt_aa:
+    - with grasping preceding lifting
+    - where lifting precedes removing
+    - where removing comes before setting
+
+shoot at basket:
+  label: shoot at basket
+  xprompt_oo:
+    - where a ball is held by hands
+    - where a ball is propelled towards a basket
+  xprompt_ao:
+    - involving a ball
+    - using hands
+    - targeting a basket
+  xprompt_aa:
+    - starting with positioning
+    - where aiming comes before pushing
+    - where pushing precedes releasing
+
+# This is an example of bouncing a ball...
+bounce ball:
+  label: bounce ball
+  xprompt_oo:
+    - where a ball is controlled by a hand
+    - where a ball impacts a surface
+  xprompt_ao:
+    - which has the ball as a patient
+    - which uses the hand as a body part
+    - which uses a surface
+  xprompt_aa:
+    - starting with grasping
+    - where pushing comes after grasping
+    - where releasing comes after pushing
+    - where catching comes after releasing
+
+tennis bat swing:
+  label: tennis bat swing
+  xprompt_oo:
+    - where a racket is held by the arm
+    - where a racket strikes a ball
+  xprompt_ao:
+    - which uses a racket as a tool
+    - which involves the arm as a body part
+    - which targets a ball
+  xprompt_aa:
+    - starting with gripping
+    - where positioning precedes the backswing
+    - where the backswing comes before the swing
+    - where the swing precedes the follow
+
+juggle table tennis ball:
+  label: juggle table tennis ball
+  xprompt_oo:
+    - where a ball bounces on a racket
+    - where a racket is controlled by hand
+  xprompt_ao:
+    - which involves a ball as the patient
+    - which uses a racket as a tool
+    - which uses the hand as a body part
+  xprompt_aa:
+    - starting with tapping
+    - where tapping precedes controlling
+    - where controlling precedes balancing
+    - where balancing precedes repeating
+
+hush:
+  label: hush
+  xprompt_oo:
+    - where a finger contacts the lips
+    - where the lips control the air
+  xprompt_ao:
+    - which uses the finger
+    - which uses the lips
+    - which controls the air
+  xprompt_aa:
+    - where raising precedes positioning
+    - where positioning comes before pressing
+    - where pressing precedes signaling
+
+# This is an example of flicking hair...
+flick hair:
+  label: flick hair
+  xprompt_oo:
+    - involving fingers as part of the hand making contact with the hair
+  xprompt_ao:
+    - using the hand and fingers to affect the hair
+  xprompt_aa:
+    - where raising precedes making contact
+    - where making contact precedes swiping
+    - where swiping precedes tossing
+
+# This is an example of thumb up...
+thumb up:
+  label: thumb up
+  xprompt_oo:
+    - where the thumb is part of the hand
+    - where the thumb extends from a fist
+  xprompt_ao:
+    - which uses the thumb as a body part
+    - which uses the hand as a body part
+    - which forms a fist
+  xprompt_aa:
+    - where forming precedes extending
+    - where extending comes before positioning
+    - where positioning precedes holding
+
+# This is an example of thumb down...
+thumb down:
+  label: thumb down
+  xprompt_oo:
+    - where the thumb is part of the hand
+    - where the thumb extends from a fist
+  xprompt_ao:
+    - which uses the thumb as a body part
+    - which uses the hand as a body part
+    - which forms a fist
+  xprompt_aa:
+    - forming before extending
+    - extending before positioning
+    - positioning before holding
+
+make OK sign:
+  label: make OK sign
+  xprompt_oo:
+    - where the thumb contacts the index finger
+    - where the thumb is part of the hand
+    - where the index finger is part of the hand
+  xprompt_ao:
+    - which uses the thumb
+    - which uses the index finger
+    - which involves the hand
+  xprompt_aa:
+    - where positioning comes before extending
+    - where extending comes before connecting
+    - where connecting comes before displaying
+
+make victory sign:
+  label: make victory sign
+  xprompt_oo:
+    - where fingers are part of the hand
+    - where fingers form a v-shape
+  xprompt_ao:
+    - which uses fingers as a body part
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where extending precedes separating
+    - where separating precedes positioning
+    - where positioning precedes displaying
+
+staple book:
+  label: staple book
+  xprompt_oo:
+    - where a stapler binds paper
+    - where a stapler is operated by a hand
+  xprompt_ao:
+    - which uses a stapler as a tool
+    - which has paper as a patient
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where aligning precedes positioning
+    - where positioning comes before placing
+    - where placing precedes pressing
+
+counting money:
+  label: counting money
+  xprompt_oo:
+    - where money is handled by hands
+    - where fingers are part of hands
+  xprompt_ao:
+    - involving money as the patient
+    - utilizing hands as a body part
+    - utilizing fingers as a body part
+  xprompt_aa:
+    - starting with grasping
+    - where separating precedes counting
+    - where counting comes before stacking
+
+cutting nails:
+  label: cutting nails
+  xprompt_oo:
+    - where a clipper cuts nails
+    - where nails are part of fingers
+  xprompt_ao:
+    - which uses a clipper as a tool
+    - which has nails as the patient
+    - which involves fingers
+  xprompt_aa:
+    - where holding precedes positioning
+    - where positioning comes before pressing
+    - where pressing precedes trimming
+
+cutting paper:
+  label: cutting paper
+  xprompt_oo:
+    - where scissors cuts paper
+    - where scissors are operated by hands
+  xprompt_ao:
+    - which uses scissors as a tool
+    - which involves paper as the patient
+    - which uses hands as a body part
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning comes before opening
+    - where opening precedes closing
+    - where closing comes before moving
+
+# This is an example of snapping fingers...
+snapping fingers:
+  label: snap fingers
+  xprompt_oo:
+    - where fingers are part of the hand
+    - where the thumb contacts the fingers
+  xprompt_ao:
+    - which uses the fingers as a body part
+    - which uses the thumb as a body part
+    - which involves the hand
+  xprompt_aa:
+    - where positioning precedes pressing
+    - where pressing precedes sliding
+    - where sliding precedes releasing
+
+open bottle:
+  label: open bottle
+  xprompt_oo:
+    - where the cap is attached to the bottle
+    - where the cap is removed by the hand
+  xprompt_ao:
+    - which has a bottle as a patient
+    - which removes the cap
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where grasping precedes gripping
+    - where gripping comes before twisting
+    - where twisting precedes removing
+
+# This is an example of sniffing/smelling...
+sniff/smell:
+  label: sniff/smell
+  xprompt_oo:
+    - where the nose draws in air
+    - where air carries scent from an object
+  xprompt_ao:
+    - which uses the nose
+    - which detects an object
+    - which inhales air
+  xprompt_aa:
+    - where approaching precedes inhaling
+    - where inhaling precedes detecting
+    - where detecting precedes processing
+
+# This is an example of squat down...
+squat down:
+  label: squat down
+  xprompt_oo:
+    - where legs bend at the knees
+    - where legs lower the body
+  xprompt_ao:
+    - which uses the legs
+    - which involves bending the knees
+    - which involves lowering the body
+  xprompt_aa:
+    - where being in a position precedes bending
+    - where bending precedes lowering
+    - where lowering precedes finding balance
+
+toss a coin:
+  label: toss a coin
+  xprompt_oo:
+    - where a coin is held by a hand
+    - where a coin is propelled into the air
+  xprompt_ao:
+    - involving a coin
+    - using a hand
+    - involving air
+  xprompt_aa:
+    - starting with grasping
+    - where positioning precedes flicking
+    - where flicking comes before tracking
+    - where tracking precedes catching
+
+# This is an example of folding paper...
+fold paper:
+  label: fold paper
+  xprompt_oo:
+    - where paper is manipulated by hands
+    - where fingers are part of hands
+  xprompt_ao:
+    - which has paper as the patient
+    - which uses hands as a body part
+    - which uses fingers as a body part
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning comes before creasing
+    - where creasing precedes pressing
+
+ball up paper:
+  label: ball up paper
+  xprompt_oo:
+    - where paper is transformed into a ball
+    - where hands manipulate paper
+  xprompt_ao:
+    - involving paper
+    - using hands
+    - creating a ball
+  xprompt_aa:
+    - starting with grasping
+    - where grasping precedes crumpling
+    - where crumpling comes before compressing
+    - where compressing precedes shaping
+
+play magic cube:
+  label: play magic cube
+  xprompt_oo:
+    - where a cube is manipulated by hands
+    - where fingers rotate the cube
+  xprompt_ao:
+    - involving a cube as a patient
+    - using hands as a body part
+    - using fingers as a body part
+  xprompt_aa:
+    - holding the cube precedes observing it
+    - observing the cube precedes rotating it
+    - rotating the cube precedes solving it
+
+# This is an example of applying cream on face...
+apply cream on face:
+  label: apply cream on face
+  xprompt_oo:
+    - where cream is spread by hands
+    - where cream is applied to the face
+  xprompt_ao:
+    - which has the cream as the patient
+    - which uses the hands as a body part
+    - which has the face as the destination
+  xprompt_aa:
+    - where scooping precedes rubbing
+    - where rubbing precedes spreading
+    - where spreading precedes rubbing
+
+put on bag:
+  label: put on bag
+  xprompt_oo:
+    - where a bag is placed on a shoulder
+    - where a bag is manipulated by hand
+  xprompt_ao:
+    - which involves a bag
+    - which has a destination of a shoulder
+    - which uses the hand
+  xprompt_aa:
+    - grasping before lifting
+    - lifting before positioning
+    - positioning before adjusting
+
+# This is an example of taking off a bag...
+take off bag:
+  label: take off bag
+  xprompt_oo:
+    - where a bag is removed from a shoulder
+    - where a bag is grasped by a hand
+  xprompt_ao:
+    - which involves a bag
+    - which has a source of the shoulder
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where grasping precedes lifting
+    - where lifting precedes removing
+    - where removing precedes lowering
+
+# This is an example of putting an object into a bag...
+put object into bag:
+  label: put object into bag
+  xprompt_oo:
+    - where an object is placed into a bag
+    - where an object is held by a hand
+  xprompt_ao:
+    - which has the object as a patient
+    - which has a bag as a destination
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where holding precedes opening
+    - where opening comes before inserting
+    - where inserting precedes releasing
+
+take object out of bag:
+  label: take object out of bag
+  xprompt_oo:
+    - where an object is removed from a bag
+    - where an object is grasped by a hand
+  xprompt_ao:
+    - which has the object as a patient
+    - which has the bag as a source
+    - which uses the hand as a body part
+  xprompt_aa:
+    - where opening precedes reaching
+    - where reaching precedes grasping
+    - where grasping comes before extracting
+
+# This is an example of opening a box...
+open a box:
+  label: open a box
+  xprompt_oo:
+    - where a lid is part of a box
+    - where a lid is manipulated by hands
+  xprompt_ao:
+    - involving a box
+    - manipulating a lid
+    - using hands as a body part
+  xprompt_aa:
+    - where grasping precedes positioning
+    - where positioning comes before lifting
+    - where lifting precedes separating
+
+move heavy objects:
+  label: move heavy objects
+  xprompt_oo:
+    - where hands lift an object
+    - where a body transports an object
+  xprompt_ao:
+    - with a patient being an object
+    - using hands as a body part
+    - using body as a body part
+  xprompt_aa:
+    - where gripping precedes bracing
+    - where bracing precedes lifting
+    - where lifting precedes carrying
+    - where carrying precedes placing
+
+# This is an example of shaking fist...
+shaking fist:
+  label: shake fist
+  xprompt_oo:
+    - where a fist is formed by a hand
+    - where a hand is attached to an arm
+  xprompt_ao:
+    - which involves using a fist
+    - which involves using a hand
+    - which involves using an arm
+  xprompt_aa:
+    - clenching before raising
+    - raising before moving
+    - moving before repeating
+
+throw up cap/hat:
+  label: throw up cap/hat
+  xprompt_oo:
+    - where a cap is held by a hand
+    - where a cap is tossed into the air
+  xprompt_ao:
+    - which has a cap as the patient
+    - which uses the hand as the body part
+    - which involves the air
+  xprompt_aa:
+    - where grasping precedes winding
+    - where winding precedes tossing
+    - where tossing precedes watching
+    - where watching precedes catching
+
+# This is an example of capitulating...
+capitulate:
+  label: capitulate
+  xprompt_oo:
+    - where hands are raised by arms
+    - where arms are part of the body
+  xprompt_ao:
+    - which uses hands as a body part
+    - which uses arms as a body part
+    - which involves the body
+  xprompt_aa:
+    - where raising precedes extending
+    - where extending precedes displaying
+    - where displaying precedes maintaining
+
+# This is an example of crossing arms...
+cross arms:
+  label: cross arms
+  xprompt_oo:
+    - where arms are folded across the chest
+    - where arms bend at the elbows
+  xprompt_ao:
+    - which uses the arms
+    - which positions over the chest
+    - which involves the elbows
+  xprompt_aa:
+    - where raising precedes bending
+    - where bending precedes overlapping
+    - where overlapping precedes positioning
+
+# This is an example of arm circles...
+arm circles:
+  label: arm circles
+  xprompt_oo:
+    - where arms rotate from the shoulders
+    - where arms are part of the body
+  xprompt_ao:
+    - which uses the arms
+    - which pivots at the shoulders
+    - which involves the body
+  xprompt_aa:
+    - that starts with extending
+    - where rotating comes after extending
+    - where circling comes after rotating
+    - where repeating comes after circling
+
+arm swings:
+  label: arm swings
+  xprompt_oo:
+    - where arms pivot at the shoulders
+    - where arms are part of the body
+  xprompt_ao:
+    - which uses the arms
+    - which pivots at the shoulders
+    - which involves the body
+  xprompt_aa:
+    - where positioning precedes extending
+    - where extending precedes swinging
+    - where swinging precedes reversing
+    - where reversing precedes repeating
+
+# This is an example of running on the spot...
+run on the spot:
+  label: run on the spot
+  xprompt_oo:
+    - where legs lift the feet
+    - where legs support the body
+  xprompt_ao:
+    - which involves the legs
+    - which involves the feet
+    - which involves the body
+  xprompt_aa:
+    - where balancing comes before lifting
+    - where lifting comes before lowering
+    - where lowering comes before alternating
+    - where alternating comes before repeating
+
+# This is an example of butt kicks...
+butt kicks:
+  label: butt kicks
+  xprompt_oo:
+    - where feet are kicked toward the buttocks
+    - where legs bend at the knees
+  xprompt_ao:
+    - which uses feet as a body part
+    - which uses legs as a body part
+    - which targets the buttocks
+  xprompt_aa:
+    - starting with standing
+    - where bending precedes kicking
+    - where kicking comes before alternation
+    - where alternation precedes repeating
+
+cross toe touch:
+  label: cross toe touch
+  xprompt_oo:
+    - where a hand reaches for a toe
+    - where the body bends forwards
+  xprompt_ao:
+    - which uses the hand as a body part
+    - which targets the toe
+    - which involves the body
+  xprompt_aa:
+    - starting with standing
+    - where bending precedes reaching
+    - where reaching comes before touching
+    - where touching precedes returning
+
+# This is an example of side kick...
+side kick:
+  label: side kick
+  xprompt_oo:
+    - where a foot is attached to a leg
+    - where a leg extends from the body
+  xprompt_ao:
+    - which uses the leg as a body part
+    - which uses the foot as a body part
+    - which involves the body
+  xprompt_aa:
+    - where balancing precedes raising
+    - where raising precedes extending
+    - where extending precedes kicking
+    - where kicking precedes retracting
+
+yawn:
+  label: yawn
+  xprompt_oo:
+    - where the mouth inhales into the lungs
+    - where the hand may cover the mouth
+  xprompt_ao:
+    - which uses the mouth
+    - which involves the lungs
+    - which may use the hand
+  xprompt_aa:
+    - starting with opening
+    - where inhaling precedes expanding
+    - where expanding comes before exhaling
+    - where exhaling precedes closing
+
+stretch oneself:
+  label: stretch oneself
+  xprompt_oo:
+    - where arms extend from the body
+    - where muscles are part of the body
+  xprompt_ao:
+    - which involves the body
+    - which uses the arms
+    - which targets muscles
+  xprompt_aa:
+    - starting with extending
+    - where extending precedes reaching
+    - where reaching comes before lengthening
+    - where lengthening precedes holding
+    - where holding comes before releasing
+
+blow nose:
+  label: blow nose
+  xprompt_oo:
+    - where a tissue is held to the nose
+    - where a tissue is held by the hand
+  xprompt_ao:
+    - which involves using a tissue
+    - which acts on the nose
+    - which uses the hand
+  xprompt_aa:
+    - starting with grasping
+    - where positioning precedes exhaling
+    - where exhaling comes before wiping
+    - where wiping precedes disposing
+
+hit with object:
+  label: hit with object
+  xprompt_oo:
+    - where an object is held by a hand
+    - where an object strikes a target
+  xprompt_ao:
+    - which uses a tool (object)
+    - which involves a hand
+    - which affects a target
+  xprompt_aa:
+    - starting with grasping
+    - where aiming comes before swinging
+    - where swinging precedes the impact
+    - where the impact comes before the withdrawal
+
+# This is an example of wielding a knife...
+wield knife:
+  label: wield knife
+  xprompt_oo:
+    - where a knife is held by a hand
+    - where a knife is directed at a target
+  xprompt_ao:
+    - which uses a knife as a tool
+    - which involves using a hand
+    - which threatens a target
+  xprompt_aa:
+    - starting with grasping
+    - where raising the knife comes before pointing it
+    - where pointing the knife precedes brandishing it
+
+# This is an example of knocking over...
+knock over:
+  label: knock over
+  xprompt_oo:
+    - where an object is pushed by a hand
+    - where an object falls to a surface
+  xprompt_ao:
+    - involving an object as a patient
+    - using the hand as a body part
+    - involving a surface
+  xprompt_aa:
+    - where reaching precedes making contact
+    - where making contact comes before pushing
+    - where pushing precedes toppling
+
+# This is an example of grabbing stuff...
+grab stuff:
+  label: grab stuff
+  xprompt_oo:
+    - where an object is seized by a hand
+    - where fingers are part of a hand
+  xprompt_ao:
+    - involving an object as the patient
+    - utilizing the hand as a body part
+    - utilizing the fingers as a body part
+  xprompt_aa:
+    - starting with reaching
+    - where reaching precedes grasping
+    - where grasping comes before clutching
+    - where clutching precedes securing
+
+shoot with gun:
+  label: shoot with gun
+  xprompt_oo:
+    - where a gun is held by a hand
+    - where a gun is aimed at a target
+  xprompt_ao:
+    - which uses a gun as a tool
+    - which involves using a hand
+    - which targets a specific target
+  xprompt_aa:
+    - starting with gripping the gun
+    - where aiming follows gripping the gun
+    - where steadying the aim comes after aiming
+    - where pulling the trigger follows steadying the aim
+
+# This is an example of stepping on foot...
+step on foot:
+  label: step on foot
+  xprompt_oo:
+    - where a shoe steps on a foot
+    - where a foot belongs to a person
+  xprompt_ao:
+    - which affects a foot
+    - which uses a shoe as a tool
+    - which is directed at a person
+  xprompt_aa:
+    - where moving precedes placing
+    - where placing precedes pressing
+    - where pressing precedes lifting
+
+high-five:
+  label: high-five
+  xprompt_oo:
+    - where a hand contacts a person
+    - where a hand is attached to an arm
+  xprompt_ao:
+    - which involves a person
+  xprompt_aa:
+    - where raising comes before extending
+    - where extending comes before aligning
+    - where aligning comes before slapping
+    - where slapping comes before withdrawing
+
+cheers and drink:
+  label: cheers and drink
+  xprompt_oo:
+    - where a glass contains a beverage
+    - where a glass is touched to another glass
+    - where people hold a glass
+  xprompt_ao:
+    - which uses a glass as a tool
+    - which involves a beverage
+    - which involves people
+  xprompt_aa:
+    - where raising precedes a toast
+    - where making a toast precedes clinking glasses
+    - where clinking glasses precedes taking a sip
+
+carry object:
+  label: carry object
+  xprompt_oo:
+    - where an object is held by hands
+    - where an object is supported by arms
+  xprompt_ao:
+    - with an object as the patient
+    - using hands as a body part
+    - using arms as a body part
+  xprompt_aa:
+    - starting with lifting
+    - where lifting precedes gripping
+    - where gripping comes before balancing
+    - where balancing precedes transporting
+
+# This is an example of taking a photo...
+take a photo:
+  label: take a photo
+  xprompt_oo:
+    - where a camera captures a subject
+    - where a camera is operated by a finger
+  xprompt_ao:
+    - which uses a camera
+    - which records a subject
+    - which involves using a finger
+  xprompt_aa:
+    - starting with aiming
+    - where aiming precedes focusing
+    - where focusing comes before framing
+    - where framing precedes pressing
+    - where pressing comes before capturing
+
+follow:
+  label: follow
+  xprompt_oo:
+    - where feet walk on a path
+    - where feet move behind a person
+  xprompt_ao:
+    - which has a target person
+    - which uses feet
+    - which uses a path
+  xprompt_aa:
+    - where observing precedes walking
+    - where walking precedes tracking
+    - where tracking precedes maintaining
+
+whisper:
+  label: whisper
+  xprompt_oo:
+    - where the mouth is close to the ear
+    - where the mouth delivers a message
+  xprompt_ao:
+    - which uses the mouth
+    - which targets the ear
+    - which conveys a message
+  xprompt_aa:
+    - where approaching precedes leaning
+    - where leaning comes before speaking
+    - where speaking precedes withdrawing
+
+# This is an example of exchanging things...
+exchange things:
+  label: exchange things
+  xprompt_oo:
+    - where objects are transferred between people
+    - where objects are held by hands
+  xprompt_ao:
+    - which involves objects
+    - which uses hands
+    - which involves people
+  xprompt_aa:
+    - starting with offering
+    - where offering precedes releasing
+    - where releasing comes before receiving
+    - where receiving precedes accepting
+
+support somebody:
+  label: support somebody
+  xprompt_oo:
+    - where an arm supports a person
+    - where the body stabilizes a person
+  xprompt_ao:
+    - which helps a person
+    - which uses the arm
+    - which uses the body
+  xprompt_aa:
+    - where approaching precedes positioning
+    - where positioning comes before bracing
+    - where bracing precedes stabilizing
+    - where stabilizing comes before assisting
+
+# This is an example of playing rock-paper-scissors...
+rock-paper-scissors:
+  label: rock-paper-scissors
+  xprompt_oo:
+    - where hands form gestures
+    - where fingers are part of hands
+  xprompt_ao:
+    - which uses hands as a body part
+    - which uses fingers as a body part
+    - which involves creating gestures
+  xprompt_aa:
+    - where preparing precedes shaking
+    - where shaking comes before forming
+    - where forming precedes revealing
+    - where revealing comes before comparing
+
+# This is an example of applying cream on hand...
+apply cream on hand:
+  label: apply cream on hand
+  xprompt_oo:
+    - where cream is spread by fingers
+    - where cream is applied to the hand
+  xprompt_ao:
+    - which has the patient as cream
+    - which has the destination as hand
+    - which uses fingers as a body part
+  xprompt_aa:
+    - dispensing cream precedes dabbing it
+    - dabbing cream precedes spreading it
+

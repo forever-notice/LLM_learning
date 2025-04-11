@@ -1,0 +1,2811 @@
+drink water:
+  label: drink water
+  obj_en_li:
+    - water
+    - cup
+    - mouth
+  obj_rel_triples:
+    - <water,contained_in,cup>
+    - <water,enters,mouth>
+    - <cup,contacts,mouth>
+  act_obj_triples:
+    - <drink water,has_patient,water>
+    - <drink water,uses_tool,cup>
+    - <drink water,uses_body_part,mouth>
+  act_en_li:
+    - grasp
+    - lift
+    - tilt
+    - sip
+    - swallow
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,tilt>
+    - <tilt,precedes,sip>
+    - <sip,precedes,swallow>
+
+eat meal:
+  label: eat meal
+  obj_en_li:
+    - food
+    - utensil
+    - mouth
+  obj_rel_triples:
+    - <food,contacted_by,utensil>
+    - <food,enters,mouth>
+    - <utensil,contacts,mouth>
+  act_obj_triples:
+    - <eat meal,has_patient,food>
+    - <eat meal,uses_tool,utensil>
+    - <eat meal,uses_body_part,mouth>
+  act_en_li:
+    - cut
+    - scoop
+    - lift
+    - bite
+    - chew
+    - swallow
+  act_rel_triples:
+    - <cut,precedes,scoop>
+    - <scoop,precedes,lift>
+    - <lift,precedes,bite>
+    - <bite,precedes,chew>
+    - <chew,precedes,swallow>
+
+brush teeth:
+  label: brush teeth
+  obj_en_li:
+    - toothbrush
+    - toothpaste
+    - teeth
+  obj_rel_triples:
+    - <toothpaste,applied_to,toothbrush>
+    - <toothbrush,contacts,teeth>
+  act_obj_triples:
+    - <brush teeth,uses_tool,toothbrush>
+    - <brush teeth,uses_material,toothpaste>
+    - <brush teeth,acts_on,teeth>
+  act_en_li:
+    - apply
+    - grasp
+    - scrub
+    - rinse
+    - spit
+  act_rel_triples:
+    - <apply,precedes,grasp>
+    - <grasp,precedes,scrub>
+    - <scrub,precedes,rinse>
+    - <rinse,precedes,spit>
+
+brush hair:
+  label: brush hair
+  obj_en_li:
+    - brush
+    - hair
+    - hand
+  obj_rel_triples:
+    - <brush,contacts,hair>
+    - <hand,holds,brush>
+  act_obj_triples:
+    - <brush hair,uses_tool,brush>
+    - <brush hair,acts_on,hair>
+    - <brush hair,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - position
+    - stroke
+    - detangle
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,stroke>
+    - <stroke,precedes,detangle>
+
+drop:
+  label: drop
+  obj_en_li:
+    - object
+    - hand
+    - surface
+  obj_rel_triples:
+    - <object,released_from,hand>
+    - <object,falls_to,surface>
+  act_obj_triples:
+    - <drop,has_patient,object>
+    - <drop,uses_body_part,hand>
+    - <drop,has_destination,surface>
+  act_en_li:
+    - hold
+    - release
+    - fall
+  act_rel_triples:
+    - <hold,precedes,release>
+    - <release,precedes,fall>
+
+pick up:
+  label: pick up
+  obj_en_li:
+    - object
+    - hand
+    - surface
+  obj_rel_triples:
+    - <object,grasped_by,hand>
+    - <object,removed_from,surface>
+  act_obj_triples:
+    - <pick up,has_patient,object>
+    - <pick up,uses_body_part,hand>
+    - <pick up,has_source,surface>
+  act_en_li:
+    - reach
+    - grasp
+    - lift
+  act_rel_triples:
+    - <reach,precedes,grasp>
+    - <grasp,precedes,lift>
+
+throw:
+  label: throw
+  obj_en_li:
+    - object
+    - hand
+    - target
+  obj_rel_triples:
+    - <object,propelled_by,hand>
+    - <object,moves_toward,target>
+  act_obj_triples:
+    - <throw,has_patient,object>
+    - <throw,uses_body_part,hand>
+    - <throw,has_destination,target>
+  act_en_li:
+    - grasp
+    - aim
+    - propel
+    - release
+  act_rel_triples:
+    - <grasp,precedes,aim>
+    - <aim,precedes,propel>
+    - <propel,precedes,release>
+
+sit down:
+  label: sit down
+  obj_en_li:
+    - chair
+    - body
+    - legs
+  obj_rel_triples:
+    - <body,contacts,chair>
+    - <legs,bend,body>
+  act_obj_triples:
+    - <sit down,has_destination,chair>
+    - <sit down,uses_body_part,legs>
+    - <sit down,positions,body>
+  act_en_li:
+    - approach
+    - position
+    - bend
+    - lower
+  act_rel_triples:
+    - <approach,precedes,position>
+    - <position,precedes,bend>
+    - <bend,precedes,lower>
+
+stand up:
+  label: stand up
+  obj_en_li:
+    - body
+    - legs
+    - seat
+  obj_rel_triples:
+    - <body,lifted_by,legs>
+    - <body,separates_from,seat>
+  act_obj_triples:
+    - <stand up,positions,body>
+    - <stand up,uses_body_part,legs>
+    - <stand up,has_source,seat>
+  act_en_li:
+    - shift
+    - push
+    - straighten
+    - balance
+  act_rel_triples:
+    - <shift,precedes,push>
+    - <push,precedes,straighten>
+    - <straighten,precedes,balance>
+
+clapping:
+  label: clapping
+  obj_en_li:
+    - hands
+    - palms
+  obj_rel_triples:
+    - <palms,contact,palms>
+    - <hands,produce,sound>
+  act_obj_triples:
+    - <clapping,uses_body_part,hands>
+    - <clapping,produces,sound>
+  act_en_li:
+    - separate
+    - align
+    - impact
+    - repeat
+  act_rel_triples:
+    - <separate,precedes,align>
+    - <align,precedes,impact>
+    - <impact,precedes,repeat>
+
+reading:
+  label: reading
+  obj_en_li:
+    - book
+    - eyes
+    - hands
+  obj_rel_triples:
+    - <book,held_by,hands>
+    - <book,viewed_by,eyes>
+  act_obj_triples:
+    - <reading,has_patient,book>
+    - <reading,uses_body_part,eyes>
+    - <reading,uses_body_part,hands>
+  act_en_li:
+    - hold
+    - focus
+    - scan
+    - comprehend
+    - turn
+  act_rel_triples:
+    - <hold,precedes,focus>
+    - <focus,precedes,scan>
+    - <scan,precedes,comprehend>
+    - <comprehend,precedes,turn>
+
+writing:
+  label: writing
+  obj_en_li:
+    - pen
+    - paper
+    - hand
+  obj_rel_triples:
+    - <pen,held_by,hand>
+    - <pen,contacts,paper>
+  act_obj_triples:
+    - <writing,uses_tool,pen>
+    - <writing,has_destination,paper>
+    - <writing,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - position
+    - press
+    - move
+    - lift
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,press>
+    - <press,precedes,move>
+    - <move,precedes,lift>
+
+tear up paper:
+  label: tear up paper
+  obj_en_li:
+    - paper
+    - hands
+  obj_rel_triples:
+    - <paper,grasped_by,hands>
+    - <paper,separated_by,hands>
+  act_obj_triples:
+    - <tear up paper,has_patient,paper>
+    - <tear up paper,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - position
+    - pull
+    - separate
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,pull>
+    - <pull,precedes,separate>
+
+put on jacket:
+  label: put on jacket
+  obj_en_li:
+    - jacket
+    - body
+    - arms
+  obj_rel_triples:
+    - <jacket,covers,body>
+    - <arms,insert_into,jacket>
+  act_obj_triples:
+    - <put on jacket,has_patient,jacket>
+    - <put on jacket,has_destination,body>
+    - <put on jacket,uses_body_part,arms>
+  act_en_li:
+    - grasp
+    - align
+    - insert
+    - pull
+    - adjust
+  act_rel_triples:
+    - <grasp,precedes,align>
+    - <align,precedes,insert>
+    - <insert,precedes,pull>
+    - <pull,precedes,adjust>
+
+take off jacket:
+  label: take off jacket
+  obj_en_li:
+    - jacket
+    - body
+    - arms
+  obj_rel_triples:
+    - <jacket,removed_from,body>
+    - <arms,withdrawn_from,jacket>
+  act_obj_triples:
+    - <take off jacket,has_patient,jacket>
+    - <take off jacket,has_source,body>
+    - <take off jacket,uses_body_part,arms>
+  act_en_li:
+    - grasp
+    - pull
+    - withdraw
+    - remove
+  act_rel_triples:
+    - <grasp,precedes,pull>
+    - <pull,precedes,withdraw>
+    - <withdraw,precedes,remove>
+
+put on a shoe:
+  label: put on a shoe
+  obj_en_li:
+    - shoe
+    - foot
+    - hand
+  obj_rel_triples:
+    - <shoe,covers,foot>
+    - <shoe,manipulated_by,hand>
+  act_obj_triples:
+    - <put on a shoe,has_patient,shoe>
+    - <put on a shoe,has_destination,foot>
+    - <put on a shoe,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - position
+    - insert
+    - adjust
+    - secure
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,insert>
+    - <insert,precedes,adjust>
+    - <adjust,precedes,secure>
+
+take off a shoe:
+  label: take off a shoe
+  obj_en_li:
+    - shoe
+    - foot
+    - hand
+  obj_rel_triples:
+    - <shoe,removed_from,foot>
+    - <shoe,manipulated_by,hand>
+  act_obj_triples:
+    - <take off a shoe,has_patient,shoe>
+    - <take off a shoe,has_source,foot>
+    - <take off a shoe,uses_body_part,hand>
+  act_en_li:
+    - loosen
+    - grasp
+    - pull
+    - remove
+  act_rel_triples:
+    - <loosen,precedes,grasp>
+    - <grasp,precedes,pull>
+    - <pull,precedes,remove>
+
+put on glasses:
+  label: put on glasses
+  obj_en_li:
+    - glasses
+    - face
+    - hands
+  obj_rel_triples:
+    - <glasses,rest_on,face>
+    - <glasses,manipulated_by,hands>
+  act_obj_triples:
+    - <put on glasses,has_patient,glasses>
+    - <put on glasses,has_destination,face>
+    - <put on glasses,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - unfold
+    - position
+    - place
+    - adjust
+  act_rel_triples:
+    - <grasp,precedes,unfold>
+    - <unfold,precedes,position>
+    - <position,precedes,place>
+    - <place,precedes,adjust>
+
+take off glasses:
+  label: take off glasses
+  obj_en_li:
+    - glasses
+    - face
+    - hands
+  obj_rel_triples:
+    - <glasses,removed_from,face>
+    - <glasses,grasped_by,hands>
+  act_obj_triples:
+    - <take off glasses,has_patient,glasses>
+    - <take off glasses,has_source,face>
+    - <take off glasses,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - lift
+    - remove
+    - fold
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,remove>
+    - <remove,precedes,fold>
+
+put on a hat/cap:
+  label: put on a hat/cap
+  obj_en_li:
+    - hat
+    - head
+    - hands
+  obj_rel_triples:
+    - <hat,covers,head>
+    - <hat,manipulated_by,hands>
+  act_obj_triples:
+    - <put on a hat/cap,has_patient,hat>
+    - <put on a hat/cap,has_destination,head>
+    - <put on a hat/cap,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - position
+    - place
+    - adjust
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,place>
+    - <place,precedes,adjust>
+
+take off a hat/cap:
+  label: take off a hat/cap
+  obj_en_li:
+    - hat
+    - head
+    - hands
+  obj_rel_triples:
+    - <hat,removed_from,head>
+    - <hat,grasped_by,hands>
+  act_obj_triples:
+    - <take off a hat/cap,has_patient,hat>
+    - <take off a hat/cap,has_source,head>
+    - <take off a hat/cap,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - lift
+    - remove
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,remove>
+
+cheer up:
+  label: cheer up
+  obj_en_li:
+    - arms
+    - face
+    - voice
+  obj_rel_triples:
+    - <arms,express,emotion>
+    - <face,shows,happiness>
+    - <voice,produces,sound>
+  act_obj_triples:
+    - <cheer up,uses_body_part,arms>
+    - <cheer up,uses_body_part,face>
+    - <cheer up,uses_body_part,voice>
+  act_en_li:
+    - smile
+    - raise
+    - shout
+    - celebrate
+  act_rel_triples:
+    - <smile,precedes,raise>
+    - <raise,precedes,shout>
+    - <shout,precedes,celebrate>
+
+hand waving:
+  label: hand waving
+  obj_en_li:
+    - hand
+    - arm
+  obj_rel_triples:
+    - <hand,attached_to,arm>
+    - <hand,moves_through,air>
+  act_obj_triples:
+    - <hand waving,uses_body_part,hand>
+    - <hand waving,uses_body_part,arm>
+  act_en_li:
+    - raise
+    - extend
+    - rotate
+    - repeat
+  act_rel_triples:
+    - <raise,precedes,extend>
+    - <extend,precedes,rotate>
+    - <rotate,precedes,repeat>
+
+kicking something:
+  label: kicking something
+  obj_en_li:
+    - foot
+    - leg
+    - object
+  obj_rel_triples:
+    - <foot,attached_to,leg>
+    - <foot,impacts,object>
+  act_obj_triples:
+    - <kicking something,uses_body_part,foot>
+    - <kicking something,uses_body_part,leg>
+    - <kicking something,has_patient,object>
+  act_en_li:
+    - position
+    - aim
+    - extend
+    - impact
+    - retract
+  act_rel_triples:
+    - <position,precedes,aim>
+    - <aim,precedes,extend>
+    - <extend,precedes,impact>
+    - <impact,precedes,retract>
+
+reach into pocket:
+  label: reach into pocket
+  obj_en_li:
+    - hand
+    - pocket
+    - item
+  obj_rel_triples:
+    - <hand,enters,pocket>
+    - <hand,searches_for,item>
+  act_obj_triples:
+    - <reach into pocket,uses_body_part,hand>
+    - <reach into pocket,has_destination,pocket>
+    - <reach into pocket,seeks,item>
+  act_en_li:
+    - locate
+    - extend
+    - insert
+    - search
+  act_rel_triples:
+    - <locate,precedes,extend>
+    - <extend,precedes,insert>
+    - <insert,precedes,search>
+
+hopping:
+  label: hopping
+  obj_en_li:
+    - legs
+    - feet
+    - body
+  obj_rel_triples:
+    - <legs,propel,body>
+    - <feet,leave,ground>
+  act_obj_triples:
+    - <hopping,uses_body_part,legs>
+    - <hopping,uses_body_part,feet>
+    - <hopping,moves,body>
+  act_en_li:
+    - bend
+    - push
+    - lift
+    - land
+  act_rel_triples:
+    - <bend,precedes,push>
+    - <push,precedes,lift>
+    - <lift,precedes,land>
+
+jump up:
+  label: jump up
+  obj_en_li:
+    - legs
+    - body
+    - arms
+  obj_rel_triples:
+    - <legs,propel,body>
+    - <arms,balance,body>
+  act_obj_triples:
+    - <jump up,uses_body_part,legs>
+    - <jump up,moves,body>
+    - <jump up,uses_body_part,arms>
+  act_en_li:
+    - bend
+    - crouch
+    - push
+    - extend
+    - land
+  act_rel_triples:
+    - <bend,precedes,crouch>
+    - <crouch,precedes,push>
+    - <push,precedes,extend>
+    - <extend,precedes,land>
+
+phone call:
+  label: phone call
+  obj_en_li:
+    - phone
+    - ear
+    - mouth
+  obj_rel_triples:
+    - <phone,contacts,ear>
+    - <mouth,speaks_into,phone>
+  act_obj_triples:
+    - <phone call,uses_tool,phone>
+    - <phone call,uses_body_part,ear>
+    - <phone call,uses_body_part,mouth>
+  act_en_li:
+    - dial
+    - hold
+    - speak
+    - listen
+    - end
+  act_rel_triples:
+    - <dial,precedes,hold>
+    - <hold,precedes,speak>
+    - <speak,precedes,listen>
+    - <listen,precedes,end>
+
+play with phone/tablet:
+  label: play with phone/tablet
+  obj_en_li:
+    - device
+    - fingers
+    - screen
+  obj_rel_triples:
+    - <fingers,touch,screen>
+    - <screen,part_of,device>
+  act_obj_triples:
+    - <play with phone/tablet,uses_tool,device>
+    - <play with phone/tablet,uses_body_part,fingers>
+    - <play with phone/tablet,interacts_with,screen>
+  act_en_li:
+    - hold
+    - tap
+    - swipe
+    - view
+  act_rel_triples:
+    - <hold,precedes,tap>
+    - <tap,precedes,swipe>
+    - <swipe,precedes,view>
+
+type on a keyboard:
+  label: type on a keyboard
+  obj_en_li:
+    - keyboard
+    - fingers
+    - screen
+  obj_rel_triples:
+    - <fingers,press,keyboard>
+    - <keyboard,inputs_to,screen>
+  act_obj_triples:
+    - <type on a keyboard,uses_tool,keyboard>
+    - <type on a keyboard,uses_body_part,fingers>
+    - <type on a keyboard,displays_on,screen>
+  act_en_li:
+    - position
+    - press
+    - release
+    - repeat
+  act_rel_triples:
+    - <position,precedes,press>
+    - <press,precedes,release>
+    - <release,precedes,repeat>
+
+point to something:
+  label: point to something
+  obj_en_li:
+    - finger
+    - hand
+    - object
+  obj_rel_triples:
+    - <finger,part_of,hand>
+    - <finger,directs_at,object>
+  act_obj_triples:
+    - <point to something,uses_body_part,finger>
+    - <point to something,uses_body_part,hand>
+    - <point to something,indicates,object>
+  act_en_li:
+    - extend
+    - aim
+    - indicate
+  act_rel_triples:
+    - <extend,precedes,aim>
+    - <aim,precedes,indicate>
+
+taking a selfie:
+  label: taking a selfie
+  obj_en_li:
+    - phone
+    - arm
+    - face
+  obj_rel_triples:
+    - <phone,held_by,arm>
+    - <phone,captures,face>
+  act_obj_triples:
+    - <taking a selfie,uses_tool,phone>
+    - <taking a selfie,uses_body_part,arm>
+    - <taking a selfie,captures,face>
+  act_en_li:
+    - hold
+    - position
+    - pose
+    - capture
+  act_rel_triples:
+    - <hold,precedes,position>
+    - <position,precedes,pose>
+    - <pose,precedes,capture>
+
+check time (from watch):
+  label: check time (from watch)
+  obj_en_li:
+    - watch
+    - wrist
+    - eyes
+  obj_rel_triples:
+    - <watch,worn_on,wrist>
+    - <watch,viewed_by,eyes>
+  act_obj_triples:
+    - <check time (from watch),uses_tool,watch>
+    - <check time (from watch),involves,wrist>
+    - <check time (from watch),uses_body_part,eyes>
+  act_en_li:
+    - position
+    - focus
+    - observe
+    - process
+  act_rel_triples:
+    - <position,precedes,focus>
+    - <focus,precedes,observe>
+    - <observe,precedes,process>
+
+rub two hands:
+  label: rub two hands
+  obj_en_li:
+    - hands
+    - palms
+  obj_rel_triples:
+    - <hands,contact,hands>
+    - <palms,rub_against,palms>
+  act_obj_triples:
+    - <rub two hands,uses_body_part,hands>
+    - <rub two hands,generates,friction>
+  act_en_li:
+    - position
+    - press
+    - move
+    - repeat
+  act_rel_triples:
+    - <position,precedes,press>
+    - <press,precedes,move>
+    - <move,precedes,repeat>
+
+nod head/bow:
+  label: nod head/bow
+  obj_en_li:
+    - head
+    - neck
+    - body
+  obj_rel_triples:
+    - <head,connected_to,neck>
+    - <head,tilts_with,body>
+  act_obj_triples:
+    - <nod head/bow,uses_body_part,head>
+    - <nod head/bow,uses_body_part,neck>
+    - <nod head/bow,involves,body>
+  act_en_li:
+    - tilt
+    - lower
+    - raise
+    - repeat
+  act_rel_triples:
+    - <tilt,precedes,lower>
+    - <lower,precedes,raise>
+    - <raise,precedes,repeat>
+
+shake head:
+  label: shake head
+  obj_en_li:
+    - head
+    - neck
+  obj_rel_triples:
+    - <head,rotated_by,neck>
+    - <head,moves_horizontally>
+  act_obj_triples:
+    - <shake head,uses_body_part,head>
+    - <shake head,uses_body_part,neck>
+  act_en_li:
+    - turn
+    - rotate
+    - reverse
+    - repeat
+  act_rel_triples:
+    - <turn,precedes,rotate>
+    - <rotate,precedes,reverse>
+    - <reverse,precedes,repeat>
+
+wipe face:
+  label: wipe face
+  obj_en_li:
+    - hand
+    - face
+    - tissue
+  obj_rel_triples:
+    - <hand,contacts,face>
+    - <tissue,held_by,hand>
+    - <tissue,wipes,face>
+  act_obj_triples:
+    - <wipe face,uses_body_part,hand>
+    - <wipe face,acts_on,face>
+    - <wipe face,may_use_tool,tissue>
+  act_en_li:
+    - grasp
+    - position
+    - contact
+    - move
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,contact>
+    - <contact,precedes,move>
+
+salute:
+  label: salute
+  obj_en_li:
+    - hand
+    - forehead
+    - arm
+  obj_rel_triples:
+    - <hand,contacts,forehead>
+    - <hand,connected_to,arm>
+  act_obj_triples:
+    - <salute,uses_body_part,hand>
+    - <salute,targets,forehead>
+    - <salute,uses_body_part,arm>
+  act_en_li:
+    - raise
+    - position
+    - touch
+    - hold
+    - lower
+  act_rel_triples:
+    - <raise,precedes,position>
+    - <position,precedes,touch>
+    - <touch,precedes,hold>
+    - <hold,precedes,lower>
+
+put palms together:
+  label: put palms together
+  obj_en_li:
+    - palms
+    - hands
+  obj_rel_triples:
+    - <palms,part_of,hands>
+    - <palms,contact,palms>
+  act_obj_triples:
+    - <put palms together,uses_body_part,palms>
+    - <put palms together,uses_body_part,hands>
+  act_en_li:
+    - raise
+    - position
+    - align
+    - press
+  act_rel_triples:
+    - <raise,precedes,position>
+    - <position,precedes,align>
+    - <align,precedes,press>
+
+cross hands in front:
+  label: cross hands in front
+  obj_en_li:
+    - hands
+    - arms
+    - chest
+  obj_rel_triples:
+    - <hands,attached_to,arms>
+    - <hands,positioned_in_front_of,chest>
+  act_obj_triples:
+    - <cross hands in front,uses_body_part,hands>
+    - <cross hands in front,uses_body_part,arms>
+    - <cross hands in front,positions_near,chest>
+  act_en_li:
+    - raise
+    - extend
+    - overlap
+    - position
+  act_rel_triples:
+    - <raise,precedes,extend>
+    - <extend,precedes,overlap>
+    - <overlap,precedes,position>
+
+sneeze/cough:
+  label: sneeze/cough
+  obj_en_li:
+    - mouth
+    - hand
+    - air
+  obj_rel_triples:
+    - <mouth,expels,air>
+    - <hand,covers,mouth>
+  act_obj_triples:
+    - <sneeze/cough,uses_body_part,mouth>
+    - <sneeze/cough,may_use,hand>
+    - <sneeze/cough,expels,air>
+  act_en_li:
+    - inhale
+    - contract
+    - expel
+    - cover
+  act_rel_triples:
+    - <inhale,precedes,contract>
+    - <contract,precedes,expel>
+    - <expel,precedes,cover>
+
+staggering:
+  label: staggering
+  obj_en_li:
+    - body
+    - legs
+    - feet
+  obj_rel_triples:
+    - <legs,support,body>
+    - <feet,balance,body>
+  act_obj_triples:
+    - <staggering,involves,body>
+    - <staggering,uses_body_part,legs>
+    - <staggering,uses_body_part,feet>
+  act_en_li:
+    - sway
+    - step
+    - wobble
+    - recover
+  act_rel_triples:
+    - <sway,precedes,step>
+    - <step,precedes,wobble>
+    - <wobble,precedes,recover>
+
+falling down:
+  label: falling down
+  obj_en_li:
+    - body
+    - ground
+    - balance
+  obj_rel_triples:
+    - <body,loses,balance>
+    - <body,contacts,ground>
+  act_obj_triples:
+    - <falling down,involves,body>
+    - <falling down,has_destination,ground>
+    - <falling down,loses,balance>
+  act_en_li:
+    - lose
+    - descend
+    - impact
+    - lie
+  act_rel_triples:
+    - <lose,precedes,descend>
+    - <descend,precedes,impact>
+    - <impact,precedes,lie>
+
+headache:
+  label: headache
+  obj_en_li:
+    - head
+    - hands
+    - temples
+  obj_rel_triples:
+    - <hands,touch,head>
+    - <hands,press,temples>
+  act_obj_triples:
+    - <headache,affects,head>
+    - <headache,involves,hands>
+    - <headache,focuses_on,temples>
+  act_en_li:
+    - grimace
+    - touch
+    - massage
+    - press
+  act_rel_triples:
+    - <grimace,precedes,touch>
+    - <touch,precedes,massage>
+    - <massage,precedes,press>
+
+chest pain:
+  label: chest pain
+  obj_en_li:
+    - chest
+    - hand
+    - heart
+  obj_rel_triples:
+    - <hand,touches,chest>
+    - <chest,contains,heart>
+  act_obj_triples:
+    - <chest pain,affects,chest>
+    - <chest pain,involves,hand>
+    - <chest pain,may_relate_to,heart>
+  act_en_li:
+    - grimace
+    - touch
+    - press
+    - rub
+  act_rel_triples:
+    - <grimace,precedes,touch>
+    - <touch,precedes,press>
+    - <press,precedes,rub>
+
+back pain:
+  label: back pain
+  obj_en_li:
+    - back
+    - hands
+    - spine
+  obj_rel_triples:
+    - <hands,reach_for,back>
+    - <back,contains,spine>
+  act_obj_triples:
+    - <back pain,affects,back>
+    - <back pain,involves,hands>
+    - <back pain,relates_to,spine>
+  act_en_li:
+    - wince
+    - reach
+    - touch
+    - rub
+  act_rel_triples:
+    - <wince,precedes,reach>
+    - <reach,precedes,touch>
+    - <touch,precedes,rub>
+
+neck pain:
+  label: neck pain
+  obj_en_li:
+    - neck
+    - hand
+    - muscles
+  obj_rel_triples:
+    - <hand,touches,neck>
+    - <neck,contains,muscles>
+  act_obj_triples:
+    - <neck pain,affects,neck>
+    - <neck pain,involves,hand>
+    - <neck pain,relates_to,muscles>
+  act_en_li:
+    - grimace
+    - reach
+    - touch
+    - massage
+  act_rel_triples:
+    - <grimace,precedes,reach>
+    - <reach,precedes,touch>
+    - <touch,precedes,massage>
+
+nausea/vomiting:
+  label: nausea/vomiting
+  obj_en_li:
+    - stomach
+    - mouth
+    - hand
+  obj_rel_triples:
+    - <stomach,connects_to,mouth>
+    - <hand,covers,mouth>
+  act_obj_triples:
+    - <nausea/vomiting,affects,stomach>
+    - <nausea/vomiting,involves,mouth>
+    - <nausea/vomiting,may_use,hand>
+  act_en_li:
+    - grimace
+    - bend
+    - heave
+    - expel
+  act_rel_triples:
+    - <grimace,precedes,bend>
+    - <bend,precedes,heave>
+    - <heave,precedes,expel>
+
+fan self:
+  label: fan self
+  obj_en_li:
+    - hand
+    - face
+    - air
+  obj_rel_triples:
+    - <hand,moves,air>
+    - <air,cools,face>
+  act_obj_triples:
+    - <fan self,uses_body_part,hand>
+    - <fan self,targets,face>
+    - <fan self,moves,air>
+  act_en_li:
+    - raise
+    - position
+    - wave
+    - repeat
+  act_rel_triples:
+    - <raise,precedes,position>
+    - <position,precedes,wave>
+    - <wave,precedes,repeat>
+
+punch/slap:
+  label: punch/slap
+  obj_en_li:
+    - hand
+    - arm
+    - target
+  obj_rel_triples:
+    - <hand,attached_to,arm>
+    - <hand,impacts,target>
+  act_obj_triples:
+    - <punch/slap,uses_body_part,hand>
+    - <punch/slap,uses_body_part,arm>
+    - <punch/slap,affects,target>
+  act_en_li:
+    - aim
+    - extend
+    - impact
+    - retract
+  act_rel_triples:
+    - <aim,precedes,extend>
+    - <extend,precedes,impact>
+    - <impact,precedes,retract>
+
+kicking:
+  label: kicking
+  obj_en_li:
+    - foot
+    - leg
+    - target
+  obj_rel_triples:
+    - <foot,attached_to,leg>
+    - <foot,impacts,target>
+  act_obj_triples:
+    - <kicking,uses_body_part,foot>
+    - <kicking,uses_body_part,leg>
+    - <kicking,affects,target>
+  act_en_li:
+    - balance
+    - aim
+    - extend
+    - impact
+    - retract
+  act_rel_triples:
+    - <balance,precedes,aim>
+    - <aim,precedes,extend>
+    - <extend,precedes,impact>
+    - <impact,precedes,retract>
+
+pushing:
+  label: pushing
+  obj_en_li:
+    - hands
+    - arms
+    - object
+  obj_rel_triples:
+    - <hands,attached_to,arms>
+    - <hands,contact,object>
+  act_obj_triples:
+    - <pushing,uses_body_part,hands>
+    - <pushing,uses_body_part,arms>
+    - <pushing,affects,object>
+  act_en_li:
+    - position
+    - contact
+    - exert
+    - move
+  act_rel_triples:
+    - <position,precedes,contact>
+    - <contact,precedes,exert>
+    - <exert,precedes,move>
+
+pat on back:
+  label: pat on back
+  obj_en_li:
+    - hand
+    - back
+    - person
+  obj_rel_triples:
+    - <hand,contacts,back>
+    - <back,belongs_to,person>
+  act_obj_triples:
+    - <pat on back,uses_body_part,hand>
+    - <pat on back,targets,back>
+    - <pat on back,directed_at,person>
+  act_en_li:
+    - reach
+    - contact
+    - tap
+    - retract
+  act_rel_triples:
+    - <reach,precedes,contact>
+    - <contact,precedes,tap>
+    - <tap,precedes,retract>
+
+point finger:
+  label: point finger
+  obj_en_li:
+    - finger
+    - hand
+    - target
+  obj_rel_triples:
+    - <finger,part_of,hand>
+    - <finger,directs_at,target>
+  act_obj_triples:
+    - <point finger,uses_body_part,finger>
+    - <point finger,uses_body_part,hand>
+    - <point finger,indicates,target>
+  act_en_li:
+    - raise
+    - extend
+    - aim
+    - hold
+  act_rel_triples:
+    - <raise,precedes,extend>
+    - <extend,precedes,aim>
+    - <aim,precedes,hold>
+
+hugging:
+  label: hugging
+  obj_en_li:
+    - arms
+    - body
+    - person
+  obj_rel_triples:
+    - <arms,encircle,person>
+    - <body,contacts,person>
+  act_obj_triples:
+    - <hugging,uses_body_part,arms>
+    - <hugging,involves,body>
+    - <hugging,has_recipient,person>
+  act_en_li:
+    - approach
+    - extend
+    - embrace
+    - hold
+    - release
+  act_rel_triples:
+    - <approach,precedes,extend>
+    - <extend,precedes,embrace>
+    - <embrace,precedes,hold>
+    - <hold,precedes,release>
+
+giving object:
+  label: giving object
+  obj_en_li:
+    - object
+    - hands
+    - recipient
+  obj_rel_triples:
+    - <object,held_by,hands>
+    - <object,transferred_to,recipient>
+  act_obj_triples:
+    - <giving object,has_patient,object>
+    - <giving object,uses_body_part,hands>
+    - <giving object,has_recipient,recipient>
+  act_en_li:
+    - hold
+    - extend
+    - offer
+    - release
+  act_rel_triples:
+    - <hold,precedes,extend>
+    - <extend,precedes,offer>
+    - <offer,precedes,release>
+
+touch pocket:
+  label: touch pocket
+  obj_en_li:
+    - hand
+    - pocket
+    - clothing
+  obj_rel_triples:
+    - <pocket,part_of,clothing>
+    - <hand,contacts,pocket>
+  act_obj_triples:
+    - <touch pocket,uses_body_part,hand>
+    - <touch pocket,targets,pocket>
+    - <touch pocket,relates_to,clothing>
+  act_en_li:
+    - reach
+    - locate
+    - contact
+    - pat
+  act_rel_triples:
+    - <reach,precedes,locate>
+    - <locate,precedes,contact>
+    - <contact,precedes,pat>
+
+shaking hands:
+  label: shaking hands
+  obj_en_li:
+    - hands
+    - arms
+    - persons
+  obj_rel_triples:
+    - <hands,contact,hands>
+    - <hands,attached_to,arms>
+  act_obj_triples:
+    - <shaking hands,uses_body_part,hands>
+    - <shaking hands,uses_body_part,arms>
+    - <shaking hands,involves,persons>
+  act_en_li:
+    - extend
+    - grasp
+    - pump
+    - release
+  act_rel_triples:
+    - <extend,precedes,grasp>
+    - <grasp,precedes,pump>
+    - <pump,precedes,release>
+
+walking towards:
+  label: walking towards
+  obj_en_li:
+    - legs
+    - feet
+    - destination
+  obj_rel_triples:
+    - <legs,move,feet>
+    - <feet,approach,destination>
+  act_obj_triples:
+    - <walking towards,uses_body_part,legs>
+    - <walking towards,uses_body_part,feet>
+    - <walking towards,has_destination,destination>
+  act_en_li:
+    - step
+    - balance
+    - advance
+    - approach
+  act_rel_triples:
+    - <step,precedes,balance>
+    - <balance,precedes,advance>
+    - <advance,precedes,approach>
+
+walking apart:
+  label: walking apart
+  obj_en_li:
+    - legs
+    - feet
+    - distance
+  obj_rel_triples:
+    - <legs,move,feet>
+    - <feet,increase,distance>
+  act_obj_triples:
+    - <walking apart,uses_body_part,legs>
+    - <walking apart,uses_body_part,feet>
+    - <walking apart,increases,distance>
+  act_en_li:
+    - turn
+    - step
+    - move
+    - separate
+  act_rel_triples:
+    - <turn,precedes,step>
+    - <step,precedes,move>
+    - <move,precedes,separate>
+
+put on headphone:
+  label: put on headphone
+  obj_en_li:
+    - headphones
+    - ears
+    - hands
+  obj_rel_triples:
+    - <headphones,cover,ears>
+    - <headphones,manipulated_by,hands>
+  act_obj_triples:
+    - <put on headphone,has_patient,headphones>
+    - <put on headphone,targets,ears>
+    - <put on headphone,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - position
+    - place
+    - adjust
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,place>
+    - <place,precedes,adjust>
+
+take off headphone:
+  label: take off headphone
+  obj_en_li:
+    - headphones
+    - ears
+    - hands
+  obj_rel_triples:
+    - <headphones,removed_from,ears>
+    - <headphones,grasped_by,hands>
+  act_obj_triples:
+    - <take off headphone,has_patient,headphones>
+    - <take off headphone,source_from,ears>
+    - <take off headphone,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - lift
+    - remove
+    - set
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,remove>
+    - <remove,precedes,set>
+
+shoot at basket:
+  label: shoot at basket
+  obj_en_li:
+    - ball
+    - hands
+    - basket
+  obj_rel_triples:
+    - <ball,held_by,hands>
+    - <ball,propelled_toward,basket>
+  act_obj_triples:
+    - <shoot at basket,has_patient,ball>
+    - <shoot at basket,uses_body_part,hands>
+    - <shoot at basket,has_target,basket>
+  act_en_li:
+    - position
+    - aim
+    - push
+    - release
+  act_rel_triples:
+    - <position,precedes,aim>
+    - <aim,precedes,push>
+    - <push,precedes,release>
+
+bounce ball:
+  label: bounce ball
+  obj_en_li:
+    - ball
+    - hand
+    - surface
+  obj_rel_triples:
+    - <ball,controlled_by,hand>
+    - <ball,impacts,surface>
+  act_obj_triples:
+    - <bounce ball,has_patient,ball>
+    - <bounce ball,uses_body_part,hand>
+    - <bounce ball,uses,surface>
+  act_en_li:
+    - grasp
+    - push
+    - release
+    - catch
+  act_rel_triples:
+    - <grasp,precedes,push>
+    - <push,precedes,release>
+    - <release,precedes,catch>
+
+tennis bat swing:
+  label: tennis bat swing
+  obj_en_li:
+    - racket
+    - arm
+    - ball
+  obj_rel_triples:
+    - <racket,held_by,arm>
+    - <racket,strikes,ball>
+  act_obj_triples:
+    - <tennis bat swing,uses_tool,racket>
+    - <tennis bat swing,uses_body_part,arm>
+    - <tennis bat swing,targets,ball>
+  act_en_li:
+    - grip
+    - position
+    - backswing
+    - swing
+    - follow
+  act_rel_triples:
+    - <grip,precedes,position>
+    - <position,precedes,backswing>
+    - <backswing,precedes,swing>
+    - <swing,precedes,follow>
+
+juggle table tennis ball:
+  label: juggle table tennis ball
+  obj_en_li:
+    - ball
+    - racket
+    - hand
+  obj_rel_triples:
+    - <ball,bounces_on,racket>
+    - <racket,controlled_by,hand>
+  act_obj_triples:
+    - <juggle table tennis ball,has_patient,ball>
+    - <juggle table tennis ball,uses_tool,racket>
+    - <juggle table tennis ball,uses_body_part,hand>
+  act_en_li:
+    - tap
+    - control
+    - balance
+    - repeat
+  act_rel_triples:
+    - <tap,precedes,control>
+    - <control,precedes,balance>
+    - <balance,precedes,repeat>
+
+hush:
+  label: hush
+  obj_en_li:
+    - finger
+    - lips
+    - air
+  obj_rel_triples:
+    - <finger,contacts,lips>
+    - <lips,control,air>
+  act_obj_triples:
+    - <hush,uses_body_part,finger>
+    - <hush,uses_body_part,lips>
+    - <hush,controls,air>
+  act_en_li:
+    - raise
+    - position
+    - press
+    - signal
+  act_rel_triples:
+    - <raise,precedes,position>
+    - <position,precedes,press>
+    - <press,precedes,signal>
+
+flick hair:
+  label: flick hair
+  obj_en_li:
+    - hand
+    - fingers
+    - hair
+  obj_rel_triples:
+    - <fingers,part_of,hand>
+    - <fingers,contact,hair>
+  act_obj_triples:
+    - <flick hair,uses_body_part,hand>
+    - <flick hair,uses_body_part,fingers>
+    - <flick hair,affects,hair>
+  act_en_li:
+    - raise
+    - contact
+    - swipe
+    - toss
+  act_rel_triples:
+    - <raise,precedes,contact>
+    - <contact,precedes,swipe>
+    - <swipe,precedes,toss>
+
+thumb up:
+  label: thumb up
+  obj_en_li:
+    - thumb
+    - hand
+    - fist
+  obj_rel_triples:
+    - <thumb,part_of,hand>
+    - <thumb,extends_from,fist>
+  act_obj_triples:
+    - <thumb up,uses_body_part,thumb>
+    - <thumb up,uses_body_part,hand>
+    - <thumb up,forms,fist>
+  act_en_li:
+    - form
+    - extend
+    - position
+    - hold
+  act_rel_triples:
+    - <form,precedes,extend>
+    - <extend,precedes,position>
+    - <position,precedes,hold>
+
+thumb down:
+  label: thumb down
+  obj_en_li:
+    - thumb
+    - hand
+    - fist
+  obj_rel_triples:
+    - <thumb,part_of,hand>
+    - <thumb,extends_from,fist>
+  act_obj_triples:
+    - <thumb down,uses_body_part,thumb>
+    - <thumb down,uses_body_part,hand>
+    - <thumb down,forms,fist>
+  act_en_li:
+    - form
+    - extend
+    - position
+    - hold
+  act_rel_triples:
+    - <form,precedes,extend>
+    - <extend,precedes,position>
+    - <position,precedes,hold>
+
+make OK sign:
+  label: make OK sign
+  obj_en_li:
+    - thumb
+    - index
+    - hand
+  obj_rel_triples:
+    - <thumb,contacts,index>
+    - <thumb,part_of,hand>
+    - <index,part_of,hand>
+  act_obj_triples:
+    - <make OK sign,uses_body_part,thumb>
+    - <make OK sign,uses_body_part,index>
+    - <make OK sign,involves,hand>
+  act_en_li:
+    - position
+    - extend
+    - connect
+    - display
+  act_rel_triples:
+    - <position,precedes,extend>
+    - <extend,precedes,connect>
+    - <connect,precedes,display>
+
+make victory sign:
+  label: make victory sign
+  obj_en_li:
+    - fingers
+    - hand
+  obj_rel_triples:
+    - <fingers,part_of,hand>
+    - <fingers,form,v-shape>
+  act_obj_triples:
+    - <make victory sign,uses_body_part,fingers>
+    - <make victory sign,uses_body_part,hand>
+  act_en_li:
+    - extend
+    - separate
+    - position
+    - display
+  act_rel_triples:
+    - <extend,precedes,separate>
+    - <separate,precedes,position>
+    - <position,precedes,display>
+
+staple book:
+  label: staple book
+  obj_en_li:
+    - stapler
+    - paper
+    - hand
+  obj_rel_triples:
+    - <stapler,binds,paper>
+    - <stapler,operated_by,hand>
+  act_obj_triples:
+    - <staple book,uses_tool,stapler>
+    - <staple book,has_patient,paper>
+    - <staple book,uses_body_part,hand>
+  act_en_li:
+    - align
+    - position
+    - place
+    - press
+  act_rel_triples:
+    - <align,precedes,position>
+    - <position,precedes,place>
+    - <place,precedes,press>
+
+counting money:
+  label: counting money
+  obj_en_li:
+    - money
+    - hands
+    - fingers
+  obj_rel_triples:
+    - <money,handled_by,hands>
+    - <fingers,part_of,hands>
+  act_obj_triples:
+    - <counting money,has_patient,money>
+    - <counting money,uses_body_part,hands>
+    - <counting money,uses_body_part,fingers>
+  act_en_li:
+    - grasp
+    - separate
+    - count
+    - stack
+  act_rel_triples:
+    - <grasp,precedes,separate>
+    - <separate,precedes,count>
+    - <count,precedes,stack>
+
+cutting nails:
+  label: cutting nails
+  obj_en_li:
+    - clipper
+    - nails
+    - fingers
+  obj_rel_triples:
+    - <clipper,cuts,nails>
+    - <nails,part_of,fingers>
+  act_obj_triples:
+    - <cutting nails,uses_tool,clipper>
+    - <cutting nails,has_patient,nails>
+    - <cutting nails,involves,fingers>
+  act_en_li:
+    - hold
+    - position
+    - press
+    - trim
+  act_rel_triples:
+    - <hold,precedes,position>
+    - <position,precedes,press>
+    - <press,precedes,trim>
+
+cutting paper:
+  label: cutting paper
+  obj_en_li:
+    - scissors
+    - paper
+    - hands
+  obj_rel_triples:
+    - <scissors,cuts,paper>
+    - <scissors,operated_by,hands>
+  act_obj_triples:
+    - <cutting paper,uses_tool,scissors>
+    - <cutting paper,has_patient,paper>
+    - <cutting paper,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - position
+    - open
+    - close
+    - move
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,open>
+    - <open,precedes,close>
+    - <close,precedes,move>
+
+snap fingers:
+  label: snap fingers
+  obj_en_li:
+    - fingers
+    - thumb
+    - hand
+  obj_rel_triples:
+    - <fingers,part_of,hand>
+    - <thumb,contacts,fingers>
+  act_obj_triples:
+    - <snap fingers,uses_body_part,fingers>
+    - <snap fingers,uses_body_part,thumb>
+    - <snap fingers,involves,hand>
+  act_en_li:
+    - position
+    - press
+    - slide
+    - release
+  act_rel_triples:
+    - <position,precedes,press>
+    - <press,precedes,slide>
+    - <slide,precedes,release>
+
+open bottle:
+  label: open bottle
+  obj_en_li:
+    - bottle
+    - cap
+    - hand
+  obj_rel_triples:
+    - <cap,attached_to,bottle>
+    - <cap,removed_by,hand>
+  act_obj_triples:
+    - <open bottle,has_patient,bottle>
+    - <open bottle,removes,cap>
+    - <open bottle,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - grip
+    - twist
+    - remove
+  act_rel_triples:
+    - <grasp,precedes,grip>
+    - <grip,precedes,twist>
+    - <twist,precedes,remove>
+
+sniff/smell:
+  label: sniff/smell
+  obj_en_li:
+    - nose
+    - object
+    - air
+  obj_rel_triples:
+    - <nose,draws_in,air>
+    - <air,carries_scent_from,object>
+  act_obj_triples:
+    - <sniff/smell,uses_body_part,nose>
+    - <sniff/smell,detects,object>
+    - <sniff/smell,inhales,air>
+  act_en_li:
+    - approach
+    - inhale
+    - detect
+    - process
+  act_rel_triples:
+    - <approach,precedes,inhale>
+    - <inhale,precedes,detect>
+    - <detect,precedes,process>
+
+squat down:
+  label: squat down
+  obj_en_li:
+    - legs
+    - knees
+    - body
+  obj_rel_triples:
+    - <legs,bend_at,knees>
+    - <legs,lower,body>
+  act_obj_triples:
+    - <squat down,uses_body_part,legs>
+    - <squat down,bends,knees>
+    - <squat down,lowers,body>
+  act_en_li:
+    - position
+    - bend
+    - lower
+    - balance
+  act_rel_triples:
+    - <position,precedes,bend>
+    - <bend,precedes,lower>
+    - <lower,precedes,balance>
+
+toss a coin:
+  label: toss a coin
+  obj_en_li:
+    - coin
+    - hand
+    - air
+  obj_rel_triples:
+    - <coin,held_by,hand>
+    - <coin,propelled_into,air>
+  act_obj_triples:
+    - <toss a coin,has_patient,coin>
+    - <toss a coin,uses_body_part,hand>
+    - <toss a coin,involves,air>
+  act_en_li:
+    - grasp
+    - position
+    - flick
+    - track
+    - catch
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,flick>
+    - <flick,precedes,track>
+    - <track,precedes,catch>
+
+fold paper:
+  label: fold paper
+  obj_en_li:
+    - paper
+    - hands
+    - fingers
+  obj_rel_triples:
+    - <paper,manipulated_by,hands>
+    - <fingers,part_of,hands>
+  act_obj_triples:
+    - <fold paper,has_patient,paper>
+    - <fold paper,uses_body_part,hands>
+    - <fold paper,uses_body_part,fingers>
+  act_en_li:
+    - grasp
+    - position
+    - crease
+    - press
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,crease>
+    - <crease,precedes,press>
+
+ball up paper:
+  label: ball up paper
+  obj_en_li:
+    - paper
+    - hands
+    - ball
+  obj_rel_triples:
+    - <paper,transformed_into,ball>
+    - <hands,manipulate,paper>
+  act_obj_triples:
+    - <ball up paper,has_patient,paper>
+    - <ball up paper,uses_body_part,hands>
+    - <ball up paper,creates,ball>
+  act_en_li:
+    - grasp
+    - crumple
+    - compress
+    - shape
+  act_rel_triples:
+    - <grasp,precedes,crumple>
+    - <crumple,precedes,compress>
+    - <compress,precedes,shape>
+
+play magic cube:
+  label: play magic cube
+  obj_en_li:
+    - cube
+    - hands
+    - fingers
+  obj_rel_triples:
+    - <cube,manipulated_by,hands>
+    - <fingers,rotate,cube>
+  act_obj_triples:
+    - <play magic cube,has_patient,cube>
+    - <play magic cube,uses_body_part,hands>
+    - <play magic cube,uses_body_part,fingers>
+  act_en_li:
+    - hold
+    - observe
+    - rotate
+    - solve
+  act_rel_triples:
+    - <hold,precedes,observe>
+    - <observe,precedes,rotate>
+    - <rotate,precedes,solve>
+
+apply cream on face:
+  label: apply cream on face
+  obj_en_li:
+    - cream
+    - hands
+    - face
+  obj_rel_triples:
+    - <cream,spread_by,hands>
+    - <cream,applied_to,face>
+  act_obj_triples:
+    - <apply cream on face,has_patient,cream>
+    - <apply cream on face,uses_body_part,hands>
+    - <apply cream on face,has_destination,face>
+  act_en_li:
+    - scoop
+    - rub
+    - spread
+    - massage
+  act_rel_triples:
+    - <scoop,precedes,rub>
+    - <rub,precedes,spread>
+    - <spread,precedes,rub>
+
+put on bag:
+  label: put on bag
+  obj_en_li:
+    - bag
+    - shoulder
+    - hand
+  obj_rel_triples:
+    - <bag,placed_on,shoulder>
+    - <bag,manipulated_by,hand>
+  act_obj_triples:
+    - <put on bag,has_patient,bag>
+    - <put on bag,has_destination,shoulder>
+    - <put on bag,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - lift
+    - position
+    - adjust
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,position>
+    - <position,precedes,adjust>
+
+take off bag:
+  label: take off bag
+  obj_en_li:
+    - bag
+    - shoulder
+    - hand
+  obj_rel_triples:
+    - <bag,removed_from,shoulder>
+    - <bag,grasped_by,hand>
+  act_obj_triples:
+    - <take off bag,has_patient,bag>
+    - <take off bag,has_source,shoulder>
+    - <take off bag,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - lift
+    - remove
+    - lower
+  act_rel_triples:
+    - <grasp,precedes,lift>
+    - <lift,precedes,remove>
+    - <remove,precedes,lower>
+
+put object into bag:
+  label: put object into bag
+  obj_en_li:
+    - object
+    - bag
+    - hand
+  obj_rel_triples:
+    - <object,placed_into,bag>
+    - <object,held_by,hand>
+  act_obj_triples:
+    - <put object into bag,has_patient,object>
+    - <put object into bag,has_destination,bag>
+    - <put object into bag,uses_body_part,hand>
+  act_en_li:
+    - hold
+    - open
+    - insert
+    - release
+  act_rel_triples:
+    - <hold,precedes,open>
+    - <open,precedes,insert>
+    - <insert,precedes,release>
+
+take object out of bag:
+  label: take object out of bag
+  obj_en_li:
+    - object
+    - bag
+    - hand
+  obj_rel_triples:
+    - <object,removed_from,bag>
+    - <object,grasped_by,hand>
+  act_obj_triples:
+    - <take object out of bag,has_patient,object>
+    - <take object out of bag,has_source,bag>
+    - <take object out of bag,uses_body_part,hand>
+  act_en_li:
+    - open
+    - reach
+    - grasp
+    - extract
+  act_rel_triples:
+    - <open,precedes,reach>
+    - <reach,precedes,grasp>
+    - <grasp,precedes,extract>
+
+open a box:
+  label: open a box
+  obj_en_li:
+    - box
+    - lid
+    - hands
+  obj_rel_triples:
+    - <lid,part_of,box>
+    - <lid,manipulated_by,hands>
+  act_obj_triples:
+    - <open a box,has_patient,box>
+    - <open a box,manipulates,lid>
+    - <open a box,uses_body_part,hands>
+  act_en_li:
+    - grasp
+    - position
+    - lift
+    - separate
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,lift>
+    - <lift,precedes,separate>
+
+move heavy objects:
+  label: move heavy objects
+  obj_en_li:
+    - object
+    - hands
+    - body
+  obj_rel_triples:
+    - <object,lifted_by,hands>
+    - <object,transported_by,body>
+  act_obj_triples:
+    - <move heavy objects,has_patient,object>
+    - <move heavy objects,uses_body_part,hands>
+    - <move heavy objects,uses_body_part,body>
+  act_en_li:
+    - grip
+    - brace
+    - lift
+    - carry
+    - place
+  act_rel_triples:
+    - <grip,precedes,brace>
+    - <brace,precedes,lift>
+    - <lift,precedes,carry>
+    - <carry,precedes,place>
+
+shake fist:
+  label: shake fist
+  obj_en_li:
+    - fist
+    - hand
+    - arm
+  obj_rel_triples:
+    - <fist,formed_by,hand>
+    - <hand,attached_to,arm>
+  act_obj_triples:
+    - <shake fist,uses_body_part,fist>
+    - <shake fist,uses_body_part,hand>
+    - <shake fist,uses_body_part,arm>
+  act_en_li:
+    - clench
+    - raise
+    - move
+    - repeat
+  act_rel_triples:
+    - <clench,precedes,raise>
+    - <raise,precedes,move>
+    - <move,precedes,repeat>
+
+throw up cap/hat:
+  label: throw up cap/hat
+  obj_en_li:
+    - cap
+    - hand
+    - air
+  obj_rel_triples:
+    - <cap,held_by,hand>
+    - <cap,tossed_into,air>
+  act_obj_triples:
+    - <throw up cap/hat,has_patient,cap>
+    - <throw up cap/hat,uses_body_part,hand>
+    - <throw up cap/hat,involves,air>
+  act_en_li:
+    - grasp
+    - wind
+    - toss
+    - watch
+    - catch
+  act_rel_triples:
+    - <grasp,precedes,wind>
+    - <wind,precedes,toss>
+    - <toss,precedes,watch>
+    - <watch,precedes,catch>
+
+capitulate:
+  label: capitulate
+  obj_en_li:
+    - hands
+    - arms
+    - body
+  obj_rel_triples:
+    - <hands,raised_by,arms>
+    - <arms,part_of,body>
+  act_obj_triples:
+    - <capitulate,uses_body_part,hands>
+    - <capitulate,uses_body_part,arms>
+    - <capitulate,involves,body>
+  act_en_li:
+    - raise
+    - extend
+    - display
+    - maintain
+  act_rel_triples:
+    - <raise,precedes,extend>
+    - <extend,precedes,display>
+    - <display,precedes,maintain>
+
+cross arms:
+  label: cross arms
+  obj_en_li:
+    - arms
+    - chest
+    - elbows
+  obj_rel_triples:
+    - <arms,fold_across,chest>
+    - <arms,bend_at,elbows>
+  act_obj_triples:
+    - <cross arms,uses_body_part,arms>
+    - <cross arms,positions_over,chest>
+    - <cross arms,involves,elbows>
+  act_en_li:
+    - raise
+    - bend
+    - overlap
+    - position
+  act_rel_triples:
+    - <raise,precedes,bend>
+    - <bend,precedes,overlap>
+    - <overlap,precedes,position>
+
+arm circles:
+  label: arm circles
+  obj_en_li:
+    - arms
+    - shoulders
+    - body
+  obj_rel_triples:
+    - <arms,rotate_from,shoulders>
+    - <arms,part_of,body>
+  act_obj_triples:
+    - <arm circles,uses_body_part,arms>
+    - <arm circles,pivots_at,shoulders>
+    - <arm circles,involves,body>
+  act_en_li:
+    - extend
+    - rotate
+    - circle
+    - repeat
+  act_rel_triples:
+    - <extend,precedes,rotate>
+    - <rotate,precedes,circle>
+    - <circle,precedes,repeat>
+
+arm swings:
+  label: arm swings
+  obj_en_li:
+    - arms
+    - shoulders
+    - body
+  obj_rel_triples:
+    - <arms,pivot_at,shoulders>
+    - <arms,part_of,body>
+  act_obj_triples:
+    - <arm swings,uses_body_part,arms>
+    - <arm swings,pivots_at,shoulders>
+    - <arm swings,involves,body>
+  act_en_li:
+    - position
+    - extend
+    - swing
+    - reverse
+    - repeat
+  act_rel_triples:
+    - <position,precedes,extend>
+    - <extend,precedes,swing>
+    - <swing,precedes,reverse>
+    - <reverse,precedes,repeat>
+
+run on the spot:
+  label: run on the spot
+  obj_en_li:
+    - legs
+    - feet
+    - body
+  obj_rel_triples:
+    - <legs,lift,feet>
+    - <legs,support,body>
+  act_obj_triples:
+    - <run on the spot,uses_body_part,legs>
+    - <run on the spot,uses_body_part,feet>
+    - <run on the spot,involves,body>
+  act_en_li:
+    - balance
+    - lift
+    - lower
+    - alternate
+    - repeat
+  act_rel_triples:
+    - <balance,precedes,lift>
+    - <lift,precedes,lower>
+    - <lower,precedes,alternate>
+    - <alternate,precedes,repeat>
+
+butt kicks:
+  label: butt kicks
+  obj_en_li:
+    - feet
+    - legs
+    - buttocks
+  obj_rel_triples:
+    - <feet,kicked_toward,buttocks>
+    - <legs,bend_at,knees>
+  act_obj_triples:
+    - <butt kicks,uses_body_part,feet>
+    - <butt kicks,uses_body_part,legs>
+    - <butt kicks,targets,buttocks>
+  act_en_li:
+    - stand
+    - bend
+    - kick
+    - alternate
+    - repeat
+  act_rel_triples:
+    - <stand,precedes,bend>
+    - <bend,precedes,kick>
+    - <kick,precedes,alternate>
+    - <alternate,precedes,repeat>
+
+cross toe touch:
+  label: cross toe touch
+  obj_en_li:
+    - hand
+    - toe
+    - body
+  obj_rel_triples:
+    - <hand,reaches_for,toe>
+    - <body,bends,forwards>
+  act_obj_triples:
+    - <cross toe touch,uses_body_part,hand>
+    - <cross toe touch,targets,toe>
+    - <cross toe touch,involves,body>
+  act_en_li:
+    - stand
+    - bend
+    - reach
+    - touch
+    - return
+  act_rel_triples:
+    - <stand,precedes,bend>
+    - <bend,precedes,reach>
+    - <reach,precedes,touch>
+    - <touch,precedes,return>
+
+side kick:
+  label: side kick
+  obj_en_li:
+    - leg
+    - foot
+    - body
+  obj_rel_triples:
+    - <foot,attached_to,leg>
+    - <leg,extends_from,body>
+  act_obj_triples:
+    - <side kick,uses_body_part,leg>
+    - <side kick,uses_body_part,foot>
+    - <side kick,involves,body>
+  act_en_li:
+    - balance
+    - raise
+    - extend
+    - kick
+    - retract
+  act_rel_triples:
+    - <balance,precedes,raise>
+    - <raise,precedes,extend>
+    - <extend,precedes,kick>
+    - <kick,precedes,retract>
+
+yawn:
+  label: yawn
+  obj_en_li:
+    - mouth
+    - lungs
+    - hand
+  obj_rel_triples:
+    - <mouth,inhales_into,lungs>
+    - <hand,may_cover,mouth>
+  act_obj_triples:
+    - <yawn,uses_body_part,mouth>
+    - <yawn,involves,lungs>
+    - <yawn,may_use,hand>
+  act_en_li:
+    - open
+    - inhale
+    - expand
+    - exhale
+    - close
+  act_rel_triples:
+    - <open,precedes,inhale>
+    - <inhale,precedes,expand>
+    - <expand,precedes,exhale>
+    - <exhale,precedes,close>
+
+stretch oneself:
+  label: stretch oneself
+  obj_en_li:
+    - arms
+    - body
+    - muscles
+  obj_rel_triples:
+    - <arms,extend_from,body>
+    - <muscles,part_of,body>
+  act_obj_triples:
+    - <stretch oneself,uses_body_part,arms>
+    - <stretch oneself,involves,body>
+    - <stretch oneself,targets,muscles>
+  act_en_li:
+    - extend
+    - reach
+    - lengthen
+    - hold
+    - release
+  act_rel_triples:
+    - <extend,precedes,reach>
+    - <reach,precedes,lengthen>
+    - <lengthen,precedes,hold>
+    - <hold,precedes,release>
+
+blow nose:
+  label: blow nose
+  obj_en_li:
+    - tissue
+    - nose
+    - hand
+  obj_rel_triples:
+    - <tissue,held_to,nose>
+    - <tissue,held_by,hand>
+  act_obj_triples:
+    - <blow nose,uses_tool,tissue>
+    - <blow nose,acts_on,nose>
+    - <blow nose,uses_body_part,hand>
+  act_en_li:
+    - grasp
+    - position
+    - exhale
+    - wipe
+    - dispose
+  act_rel_triples:
+    - <grasp,precedes,position>
+    - <position,precedes,exhale>
+    - <exhale,precedes,wipe>
+    - <wipe,precedes,dispose>
+
+hit with object:
+  label: hit with object
+  obj_en_li:
+    - object
+    - hand
+    - target
+  obj_rel_triples:
+    - <object,held_by,hand>
+    - <object,strikes,target>
+  act_obj_triples:
+    - <hit with object,uses_tool,object>
+    - <hit with object,uses_body_part,hand>
+    - <hit with object,affects,target>
+  act_en_li:
+    - grasp
+    - aim
+    - swing
+    - impact
+    - withdraw
+  act_rel_triples:
+    - <grasp,precedes,aim>
+    - <aim,precedes,swing>
+    - <swing,precedes,impact>
+    - <impact,precedes,withdraw>
+
+wield knife:
+  label: wield knife
+  obj_en_li:
+    - knife
+    - hand
+    - target
+  obj_rel_triples:
+    - <knife,held_by,hand>
+    - <knife,directed_at,target>
+  act_obj_triples:
+    - <wield knife,uses_tool,knife>
+    - <wield knife,uses_body_part,hand>
+    - <wield knife,threatens,target>
+  act_en_li:
+    - grasp
+    - raise
+    - point
+    - brandish
+  act_rel_triples:
+    - <grasp,precedes,raise>
+    - <raise,precedes,point>
+    - <point,precedes,brandish>
+
+knock over:
+  label: knock over
+  obj_en_li:
+    - object
+    - hand
+    - surface
+  obj_rel_triples:
+    - <object,pushed_by,hand>
+    - <object,falls_to,surface>
+  act_obj_triples:
+    - <knock over,has_patient,object>
+    - <knock over,uses_body_part,hand>
+    - <knock over,involves,surface>
+  act_en_li:
+    - reach
+    - contact
+    - push
+    - topple
+  act_rel_triples:
+    - <reach,precedes,contact>
+    - <contact,precedes,push>
+    - <push,precedes,topple>
+
+grab stuff:
+  label: grab stuff
+  obj_en_li:
+    - object
+    - hand
+    - fingers
+  obj_rel_triples:
+    - <object,seized_by,hand>
+    - <fingers,part_of,hand>
+  act_obj_triples:
+    - <grab stuff,has_patient,object>
+    - <grab stuff,uses_body_part,hand>
+    - <grab stuff,uses_body_part,fingers>
+  act_en_li:
+    - reach
+    - grasp
+    - clutch
+    - secure
+  act_rel_triples:
+    - <reach,precedes,grasp>
+    - <grasp,precedes,clutch>
+    - <clutch,precedes,secure>
+
+shoot with gun:
+  label: shoot with gun
+  obj_en_li:
+    - gun
+    - hand
+    - target
+  obj_rel_triples:
+    - <gun,held_by,hand>
+    - <gun,aimed_at,target>
+  act_obj_triples:
+    - <shoot with gun,uses_tool,gun>
+    - <shoot with gun,uses_body_part,hand>
+    - <shoot with gun,targets,target>
+  act_en_li:
+    - grip
+    - aim
+    - steady
+    - pull
+    - fire
+  act_rel_triples:
+    - <grip,precedes,aim>
+    - <aim,precedes,steady>
+    - <steady,precedes,pull>
+    - <pull,precedes,fire>
+
+step on foot:
+  label: step on foot
+  obj_en_li:
+    - foot
+    - shoe
+    - person
+  obj_rel_triples:
+    - <shoe,steps_on,foot>
+    - <foot,belongs_to,person>
+  act_obj_triples:
+    - <step on foot,affects,foot>
+    - <step on foot,uses_tool,shoe>
+    - <step on foot,directed_at,person>
+  act_en_li:
+    - move
+    - place
+    - press
+    - lift
+  act_rel_triples:
+    - <move,precedes,place>
+    - <place,precedes,press>
+    - <press,precedes,lift>
+
+high-five:
+  label: high-five
+  obj_en_li:
+    - hand
+    - person
+    - arm
+  obj_rel_triples:
+    - <hand,contacts,person>
+    - <hand,attached_to,arm>
+  act_obj_triples:
+    - <high-five,uses_body_part,hand>
+    - <high-five,involves,person>
+    - <high-five,uses_body_part,arm>
+  act_en_li:
+    - raise
+    - extend
+    - align
+    - slap
+    - withdraw
+  act_rel_triples:
+    - <raise,precedes,extend>
+    - <extend,precedes,align>
+    - <align,precedes,slap>
+    - <slap,precedes,withdraw>
+
+cheers and drink:
+  label: cheers and drink
+  obj_en_li:
+    - glass
+    - beverage
+    - people
+  obj_rel_triples:
+    - <glass,contains,beverage>
+    - <glass,touched_to,glass>
+    - <people,hold,glass>
+  act_obj_triples:
+    - <cheers and drink,uses_tool,glass>
+    - <cheers and drink,involves,beverage>
+    - <cheers and drink,involves,people>
+  act_en_li:
+    - raise
+    - toast
+    - clink
+    - sip
+  act_rel_triples:
+    - <raise,precedes,toast>
+    - <toast,precedes,clink>
+    - <clink,precedes,sip>
+
+carry object:
+  label: carry object
+  obj_en_li:
+    - object
+    - hands
+    - arms
+  obj_rel_triples:
+    - <object,held_by,hands>
+    - <object,supported_by,arms>
+  act_obj_triples:
+    - <carry object,has_patient,object>
+    - <carry object,uses_body_part,hands>
+    - <carry object,uses_body_part,arms>
+  act_en_li:
+    - lift
+    - grip
+    - balance
+    - transport
+  act_rel_triples:
+    - <lift,precedes,grip>
+    - <grip,precedes,balance>
+    - <balance,precedes,transport>
+
+take a photo:
+  label: take a photo
+  obj_en_li:
+    - camera
+    - subject
+    - finger
+  obj_rel_triples:
+    - <camera,captures,subject>
+    - <camera,operated_by,finger>
+  act_obj_triples:
+    - <take a photo,uses_tool,camera>
+    - <take a photo,records,subject>
+    - <take a photo,uses_body_part,finger>
+  act_en_li:
+    - aim
+    - focus
+    - frame
+    - press
+    - capture
+  act_rel_triples:
+    - <aim,precedes,focus>
+    - <focus,precedes,frame>
+    - <frame,precedes,press>
+    - <press,precedes,capture>
+
+follow:
+  label: follow
+  obj_en_li:
+    - person
+    - feet
+    - path
+  obj_rel_triples:
+    - <feet,walk_on,path>
+    - <feet,move_behind,person>
+  act_obj_triples:
+    - <follow,has_target,person>
+    - <follow,uses_body_part,feet>
+    - <follow,uses,path>
+  act_en_li:
+    - observe
+    - walk
+    - track
+    - maintain
+  act_rel_triples:
+    - <observe,precedes,walk>
+    - <walk,precedes,track>
+    - <track,precedes,maintain>
+
+whisper:
+  label: whisper
+  obj_en_li:
+    - mouth
+    - ear
+    - message
+  obj_rel_triples:
+    - <mouth,close_to,ear>
+    - <mouth,delivers,message>
+  act_obj_triples:
+    - <whisper,uses_body_part,mouth>
+    - <whisper,targets,ear>
+    - <whisper,conveys,message>
+  act_en_li:
+    - approach
+    - lean
+    - speak
+    - withdraw
+  act_rel_triples:
+    - <approach,precedes,lean>
+    - <lean,precedes,speak>
+    - <speak,precedes,withdraw>
+
+exchange things:
+  label: exchange things
+  obj_en_li:
+    - objects
+    - hands
+    - people
+  obj_rel_triples:
+    - <objects,transferred_between,people>
+    - <objects,held_by,hands>
+  act_obj_triples:
+    - <exchange things,involves,objects>
+    - <exchange things,uses_body_part,hands>
+    - <exchange things,involves,people>
+  act_en_li:
+    - offer
+    - release
+    - receive
+    - accept
+  act_rel_triples:
+    - <offer,precedes,release>
+    - <release,precedes,receive>
+    - <receive,precedes,accept>
+
+support somebody:
+  label: support somebody
+  obj_en_li:
+    - person
+    - arm
+    - body
+  obj_rel_triples:
+    - <arm,supports,person>
+    - <body,stabilizes,person>
+  act_obj_triples:
+    - <support somebody,helps,person>
+    - <support somebody,uses_body_part,arm>
+    - <support somebody,uses_body_part,body>
+  act_en_li:
+    - approach
+    - position
+    - brace
+    - stabilize
+    - assist
+  act_rel_triples:
+    - <approach,precedes,position>
+    - <position,precedes,brace>
+    - <brace,precedes,stabilize>
+    - <stabilize,precedes,assist>
+
+rock-paper-scissors:
+  label: rock-paper-scissors
+  obj_en_li:
+    - hands
+    - fingers
+    - gestures
+  obj_rel_triples:
+    - <hands,form,gestures>
+    - <fingers,part_of,hands>
+  act_obj_triples:
+    - <rock-paper-scissors,uses_body_part,hands>
+    - <rock-paper-scissors,uses_body_part,fingers>
+    - <rock-paper-scissors,creates,gestures>
+  act_en_li:
+    - prepare
+    - shake
+    - form
+    - reveal
+    - compare
+  act_rel_triples:
+    - <prepare,precedes,shake>
+    - <shake,precedes,form>
+    - <form,precedes,reveal>
+    - <reveal,precedes,compare>
+
+apply cream on hand:
+  label: apply cream on hand
+  obj_en_li:
+    - cream
+    - hand
+    - fingers
+  obj_rel_triples:
+    - <cream,spread_by,fingers>
+    - <cream,applied_to,hand>
+  act_obj_triples:
+    - <apply cream on hand,has_patient,cream>
+    - <apply cream on hand,has_destination,hand>
+    - <apply cream on hand,uses_body_part,fingers>
+  act_en_li:
+    - dispense
+    - dab
+    - spread
+    - rub
+  act_rel_triples:
+    - <dispense,precedes,dab>
+    - <dab,precedes,spread>
+    - <spread,precedes,

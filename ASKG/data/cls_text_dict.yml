@@ -1,0 +1,1455 @@
+0:
+- - a human action of drink water, which uses a cup.
+  - a human action of drink water, where grasping precedes lifting.
+  - a human action of drink water, where water enters the mouth.
+  - a human action of drink water, where tilting precedes sipping.
+  - a human action of drink water, where lifting precedes tilting.
+  - a human action of drink water, which uses the mouth.
+  - a human action of drink water, where water is contained in a cup.
+  - a human action of drink water, where a cup contacts the mouth.
+  - a human action of drink water.
+  - a human action of drink water, where sipping precedes swallowing.
+  - a human action of drink water, which involves water.
+  - a human action of drink water, which uses a cup.
+- - a human action of eat meal, where a utensil contacts the mouth.
+  - a human action of eat meal.
+  - a human action of eat meal, where biting precedes chewing.
+  - a human action of eat meal, which has food as the patient.
+  - a human action of eat meal, where lifting precedes biting.
+  - a human action of eat meal, where cutting precedes scooping.
+  - a human action of eat meal, which uses a utensil as a tool.
+  - a human action of eat meal, where scooping precedes lifting.
+  - a human action of eat meal, where chewing precedes swallowing.
+  - a human action of eat meal, where food enters the mouth.
+  - a human action of eat meal, where food is contacted by a utensil.
+  - a human action of eat meal, which uses the mouth as a body part.
+- - a human action of brush teeth, which uses a toothbrush as a tool.
+  - a human action of brush teeth, starting with applying toothpaste.
+  - a human action of brush teeth, where scrubbing is followed by rinsing.
+  - a human action of brush teeth, where a toothbrush comes into contact with teeth.
+  - a human action of brush teeth, where toothpaste is applied to a toothbrush.
+  - a human action of brush teeth, where applying toothpaste is followed by grasping.
+  - a human action of brush teeth, where grasping is followed by scrubbing.
+  - a human action of brush teeth, which uses toothpaste as a material.
+  - a human action of brush teeth.
+  - a human action of brush teeth, where rinsing is followed by spitting.
+  - a human action of brush teeth, which acts on teeth.
+  - a human action of brush teeth, which uses a toothbrush as a tool.
+- - a human action of brush hair, where positioning precedes stroking.
+  - a human action of brush hair, where grasping precedes positioning.
+  - a human action of brush hair, acting on the hair.
+  - a human action of brush hair.
+  - a human action of brush hair, using the hand as a body part.
+  - a human action of brush hair, using a brush as a tool.
+  - a human action of brush hair, where a brush contacts hair.
+  - a human action of brush hair, where a hand holds the brush.
+  - a human action of brush hair, where stroking precedes detangling.
+  - a human action of brush hair, where positioning precedes stroking.
+  - a human action of brush hair, where grasping precedes positioning.
+  - a human action of brush hair, acting on the hair.
+- - a human action of drop, with an object as the patient.
+  - a human action of drop, where an object is released from a hand.
+  - a human action of drop, following holding an object.
+  - a human action of drop, using a hand as the body part.
+  - a human action of drop, with a surface as the destination.
+  - a human action of drop.
+  - a human action of drop, where releasing an object comes before it falling.
+  - a human action of drop, where an object falls to a surface.
+  - a human action of drop, with an object as the patient.
+  - a human action of drop, where an object is released from a hand.
+  - a human action of drop, following holding an object.
+  - a human action of drop, using a hand as the body part.
+- - a human action of pick up, where an object is grasped by a hand.
+  - a human action of pick up, starting with reaching.
+  - a human action of pick up, with the object as the patient.
+  - a human action of pick up.
+  - a human action of pick up, using the hand as the body part.
+  - a human action of pick up, where an object is removed from a surface.
+  - a human action of pick up, where grasping comes before lifting.
+  - a human action of pick up, with the surface as the source.
+  - a human action of pick up, where reaching precedes grasping.
+  - a human action of pick up, where an object is grasped by a hand.
+  - a human action of pick up, starting with reaching.
+  - a human action of pick up, with the object as the patient.
+- - a human action of throw, starting with grasping.
+  - a human action of throw, where an object moves toward a target.
+  - a human action of throw, releasing after propelling.
+  - a human action of throw, which uses the hand as the body part.
+  - a human action of throw.
+  - a human action of throw, where an object is propelled by the hand.
+  - a human action of throw, involving an object as the patient.
+  - a human action of throw, with a destination as the target.
+  - a human action of throw, aiming before propelling.
+  - a human action of throw, starting with grasping.
+  - a human action of throw, where an object moves toward a target.
+  - a human action of throw, releasing after propelling.
+- - a human action of sit down.
+  - a human action of sit down, where positioning precedes bending.
+  - a human action of sit down, which positions the body.
+  - a human action of sit down, which uses the legs as a body part.
+  - a human action of sit down, which has a destination chair.
+  - a human action of sit down, where the body contacts the chair.
+  - a human action of sit down, where bending precedes lowering.
+  - a human action of sit down, where approaching precedes positioning.
+  - a human action of sit down, where the legs bend the body.
+  - a human action of sit down.
+  - a human action of sit down, where positioning precedes bending.
+  - a human action of sit down, which positions the body.
+- - a human action of stand up, where the body separates from the seat.
+  - a human action of stand up, which uses the legs.
+  - a human action of stand up, where pushing precedes straightening.
+  - a human action of stand up, which positions the body.
+  - a human action of stand up, which has a source as the seat.
+  - a human action of stand up, where shifting precedes pushing.
+  - a human action of stand up, where straightening precedes balancing.
+  - a human action of stand up, where the body is lifted by the legs.
+  - a human action of stand up.
+  - a human action of stand up, where the body separates from the seat.
+  - a human action of stand up, which uses the legs.
+  - a human action of stand up, where pushing precedes straightening.
+- - a human action of clapping, where separating comes before aligning.
+  - a human action of clapping, where palms come into contact with each other.
+  - a human action of clapping, which produces sound.
+  - a human action of clapping, which involves using hands.
+  - a human action of clapping, where hands produce sound.
+  - a human action of clapping.
+  - a human action of clapping, where aligning comes before impacting.
+  - a human action of clapping, where impacting comes before repeating.
+  - a human action of clapping, where separating comes before aligning.
+  - a human action of clapping, where palms come into contact with each other.
+  - a human action of clapping, which produces sound.
+  - a human action of clapping, which involves using hands.
+- - a human action of reading, which uses eyes.
+  - a human action of reading.
+  - a human action of reading, where a book is held by hands.
+  - a human action of reading, where scanning precedes comprehending.
+  - a human action of reading, where comprehending comes before turning.
+  - a human action of reading, which involves a book.
+  - a human action of reading, which uses hands.
+  - a human action of reading, starting with holding.
+  - a human action of reading, where a book is viewed by eyes.
+  - a human action of reading, where focusing comes before scanning.
+  - a human action of reading, where holding precedes focusing.
+  - a human action of reading, which uses eyes.
+- - a human action of writing, which involves the hand as a body part.
+  - a human action of writing, where a pen contacts paper.
+  - a human action of writing, which has paper as a destination.
+  - a human action of writing, where pressing comes before moving.
+  - a human action of writing, where moving precedes lifting.
+  - a human action of writing, where grasping precedes positioning.
+  - a human action of writing, which uses a pen as a tool.
+  - a human action of writing, where a pen is held by a hand.
+  - a human action of writing, where positioning precedes pressing.
+  - a human action of writing.
+  - a human action of writing, which involves the hand as a body part.
+  - a human action of writing, where a pen contacts paper.
+- - a human action of tear up paper, which has paper as the patient.
+  - a human action of tear up paper, where paper is grasped by hands.
+  - a human action of tear up paper, where paper is separated by hands.
+  - a human action of tear up paper.
+  - a human action of tear up paper, which uses hands as the body part.
+  - a human action of tear up paper, where positioning comes before pulling.
+  - a human action of tear up paper, where pulling precedes separating.
+  - a human action of tear up paper, starting with grasping.
+  - a human action of tear up paper, which has paper as the patient.
+  - a human action of tear up paper, where paper is grasped by hands.
+  - a human action of tear up paper, where paper is separated by hands.
+  - a human action of tear up paper.
+- - a human action of put on jacket, which uses the arms as the body part.
+  - a human action of put on jacket, starting with grasping.
+  - a human action of put on jacket, which has a jacket as the patient.
+  - a human action of put on jacket, where pulling precedes adjusting.
+  - a human action of put on jacket, which has the body as the destination.
+  - a human action of put on jacket, where a jacket covers the body.
+  - a human action of put on jacket, where inserting comes before pulling.
+  - a human action of put on jacket.
+  - a human action of put on jacket, where aligning precedes inserting.
+  - a human action of put on jacket, where arms are inserted into a jacket.
+  - a human action of put on jacket, which uses the arms as the body part.
+  - a human action of put on jacket, starting with grasping.
+- - a human action of take off jacket, involving a jacket as the patient.
+  - a human action of take off jacket.
+  - a human action of take off jacket, utilizing arms as the body part.
+  - a human action of take off jacket, starting with grasping.
+  - a human action of take off jacket, requiring the body as the source.
+  - a human action of take off jacket, where grasping precedes pulling.
+  - a human action of take off jacket, where pulling comes before withdrawing.
+  - a human action of take off jacket, where withdrawing precedes removing.
+  - a human action of take off jacket, where a jacket is removed from the body.
+  - a human action of take off jacket, where arms are withdrawn from a jacket.
+  - a human action of take off jacket, involving a jacket as the patient.
+  - a human action of take off jacket.
+- - a human action of put on a shoe, where positioning comes before inserting.
+  - a human action of put on a shoe, which has a shoe as the item being put on.
+  - a human action of put on a shoe, where a shoe is manipulated by a hand.
+  - a human action of put on a shoe, which has the foot as the destination.
+  - a human action of put on a shoe, where inserting is done before adjusting.
+  - a human action of put on a shoe, starting with grasping.
+  - a human action of put on a shoe, where a shoe covers a foot.
+  - a human action of put on a shoe, where adjusting precedes securing.
+  - a human action of put on a shoe.
+  - a human action of put on a shoe, which uses the hand as the body part for putting
+    on the shoe.
+  - a human action of put on a shoe, where positioning comes before inserting.
+  - a human action of put on a shoe, which has a shoe as the item being put on.
+- - a human action of take off a shoe, where pulling comes before removing.
+  - a human action of take off a shoe, where grasping precedes pulling.
+  - a human action of take off a shoe, with a foot as the source.
+  - a human action of take off a shoe, where a shoe is removed from a foot.
+  - a human action of take off a shoe, with a shoe as the patient.
+  - a human action of take off a shoe.
+  - a human action of take off a shoe, using a hand as the body part.
+  - a human action of take off a shoe, where a shoe is manipulated by a hand.
+  - a human action of take off a shoe, starting by loosening.
+  - a human action of take off a shoe, where loosening is followed by grasping.
+  - a human action of take off a shoe, where pulling comes before removing.
+  - a human action of take off a shoe, where grasping precedes pulling.
+- - a human action of put on glasses, which has glasses as the patient.
+  - a human action of put on glasses.
+  - a human action of put on glasses, which uses hands.
+  - a human action of put on glasses, where glasses are manipulated by hands.
+  - a human action of put on glasses, where grasping precedes unfolding.
+  - a human action of put on glasses, where positioning comes before placing.
+  - a human action of put on glasses, where unfolding precedes positioning.
+  - a human action of put on glasses, where placing comes before adjusting.
+  - a human action of put on glasses, which has the face as the destination.
+  - a human action of put on glasses, where glasses rest on the face.
+  - a human action of put on glasses, which has glasses as the patient.
+  - a human action of put on glasses.
+- - a human action of take off glasses.
+  - a human action of take off glasses, where glasses are removed from the face.
+  - a human action of take off glasses, where glasses are grasped by hands.
+  - a human action of take off glasses, involving glasses as the patient.
+  - a human action of take off glasses, where removing precedes folding.
+  - a human action of take off glasses, where grasping precedes lifting.
+  - a human action of take off glasses, utilizing hands as the body part.
+  - a human action of take off glasses, starting with grasping.
+  - a human action of take off glasses, where lifting comes before removing.
+  - a human action of take off glasses, requiring the face as the source.
+  - a human action of take off glasses.
+  - a human action of take off glasses, where glasses are removed from the face.
+- - a human action of put on a hat/cap, where a hat covers the head.
+  - a human action of put on a hat/cap, where positioning comes before placing.
+  - a human action of put on a hat/cap, with the destination being the head.
+  - a human action of put on a hat/cap.
+  - a human action of put on a hat/cap, using hands as the body part.
+  - a human action of put on a hat/cap, starting with grasping.
+  - a human action of put on a hat/cap, where placing precedes adjusting.
+  - a human action of put on a hat/cap, where a hat is manipulated by hands.
+  - a human action of put on a hat/cap, involving a hat as the patient.
+  - a human action of put on a hat/cap, where a hat covers the head.
+  - a human action of put on a hat/cap, where positioning comes before placing.
+  - a human action of put on a hat/cap, with the destination being the head.
+- - a human action of take off a hat/cap, involving hands as the body part used.
+  - a human action of take off a hat/cap, where grasping precedes lifting.
+  - a human action of take off a hat/cap, where lifting precedes removing.
+  - a human action of take off a hat/cap, involving the head as the source.
+  - a human action of take off a hat/cap.
+  - a human action of take off a hat/cap, involving a hat as the patient.
+  - a human action of take off a hat/cap, where a hat is removed from the head.
+  - a human action of take off a hat/cap, where a hat is grasped by hands.
+  - a human action of take off a hat/cap, involving hands as the body part used.
+  - a human action of take off a hat/cap, where grasping precedes lifting.
+  - a human action of take off a hat/cap, where lifting precedes removing.
+  - a human action of take off a hat/cap, involving the head as the source.
+- - a human action of cheer up, which involves using arms.
+  - a human action of cheer up, where raising precedes shouting.
+  - a human action of cheer up, which involves using the face.
+  - a human action of cheer up, which involves using the voice.
+  - a human action of cheer up, where the face shows happiness.
+  - a human action of cheer up.
+  - a human action of cheer up, where the voice produces sound.
+  - a human action of cheer up, where smiling precedes raising.
+  - a human action of cheer up, where shouting precedes celebrating.
+  - a human action of cheer up, where arms express emotion.
+  - a human action of cheer up, which involves using arms.
+  - a human action of cheer up, where raising precedes shouting.
+- - a human action of hand waving, where raising comes before extending.
+  - a human action of hand waving.
+  - a human action of hand waving, which involves using the hand.
+  - a human action of hand waving, where rotating comes before repeating.
+  - a human action of hand waving, where a hand moves through the air.
+  - a human action of hand waving, where extending precedes rotating.
+  - a human action of hand waving, which involves using the arm.
+  - a human action of hand waving, where a hand is attached to an arm.
+  - a human action of hand waving, where raising comes before extending.
+  - a human action of hand waving.
+  - a human action of hand waving, which involves using the hand.
+  - a human action of hand waving, where rotating comes before repeating.
+- - a human action of kicking something, using the foot.
+  - a human action of kicking something, with the object as the patient.
+  - a human action of kicking something, where aiming comes before extending.
+  - a human action of kicking something.
+  - a human action of kicking something, where positioning precedes aiming.
+  - a human action of kicking something, where impacting precedes retracting.
+  - a human action of kicking something, where extending precedes impacting.
+  - a human action of kicking something, where a foot is attached to a leg.
+  - a human action of kicking something, where a foot impacts an object.
+  - a human action of kicking something, using the leg.
+  - a human action of kicking something, using the foot.
+  - a human action of kicking something, with the object as the patient.
+- - a human action of reach into pocket, which involves using a hand.
+  - a human action of reach into pocket, where inserting precedes searching.
+  - a human action of reach into pocket, where a hand enters a pocket.
+  - a human action of reach into pocket.
+  - a human action of reach into pocket, which seeks an item.
+  - a human action of reach into pocket, which has a pocket as the destination.
+  - a human action of reach into pocket, where extending comes before inserting.
+  - a human action of reach into pocket, where a hand searches for an item.
+  - a human action of reach into pocket, where locating precedes extending.
+  - a human action of reach into pocket, which involves using a hand.
+  - a human action of reach into pocket, where inserting precedes searching.
+  - a human action of reach into pocket, where a hand enters a pocket.
+- - a human action of hopping.
+  - a human action of hopping, which uses feet.
+  - a human action of hopping, pushing before lifting.
+  - a human action of hopping, which uses legs.
+  - a human action of hopping, where legs propel the body.
+  - a human action of hopping, which moves the body.
+  - a human action of hopping, where feet leave the ground.
+  - a human action of hopping, lifting before landing.
+  - a human action of hopping, bending before pushing.
+  - a human action of hopping.
+  - a human action of hopping, which uses feet.
+  - a human action of hopping, pushing before lifting.
+- - a human action of jump up, where legs propel the body.
+  - a human action of jump up, which uses the legs.
+  - a human action of jump up, where crouching comes before pushing.
+  - a human action of jump up, where pushing precedes extending.
+  - a human action of jump up, starting with bending.
+  - a human action of jump up, where arms balance the body.
+  - a human action of jump up, where extending comes before landing.
+  - a human action of jump up.
+  - a human action of jump up, where bending precedes crouching.
+  - a human action of jump up, which involves moving the body.
+  - a human action of jump up, which uses the arms.
+  - a human action of jump up, where legs propel the body.
+- - a human action of phone call, which uses a phone as a tool.
+  - a human action of phone call, where holding the phone comes before speaking.
+  - a human action of phone call, where the mouth speaks into the phone.
+  - a human action of phone call, where dialing precedes holding the phone.
+  - a human action of phone call, which involves using the mouth.
+  - a human action of phone call.
+  - a human action of phone call, where speaking precedes listening.
+  - a human action of phone call, which involves using the ear.
+  - a human action of phone call, where listening comes before ending the call.
+  - a human action of phone call, starting with dialing.
+  - a human action of phone call, where the phone contacts the ear.
+  - a human action of phone call, which uses a phone as a tool.
+- - a human action of play with phone/tablet, where swiping precedes viewing.
+  - a human action of play with phone/tablet, where the screen is a part of the device.
+  - a human action of play with phone/tablet, where fingers touch the screen.
+  - a human action of play with phone/tablet, where holding precedes tapping.
+  - a human action of play with phone/tablet, which involves using fingers.
+  - a human action of play with phone/tablet, where tapping precedes swiping.
+  - a human action of play with phone/tablet, which involves using the device.
+  - a human action of play with phone/tablet.
+  - a human action of play with phone/tablet, which involves interacting with the
+    screen.
+  - a human action of play with phone/tablet, where swiping precedes viewing.
+  - a human action of play with phone/tablet, where the screen is a part of the device.
+  - a human action of play with phone/tablet, where fingers touch the screen.
+- - a human action of type on a keyboard, which involves the fingers as the body part
+    used.
+  - a human action of type on a keyboard, which displays on the screen.
+  - a human action of type on a keyboard, where the keyboard inputs to the screen.
+  - a human action of type on a keyboard, where positioning precedes pressing.
+  - a human action of type on a keyboard, where pressing precedes releasing.
+  - a human action of type on a keyboard.
+  - a human action of type on a keyboard, where fingers press the keyboard.
+  - a human action of type on a keyboard, which uses the keyboard as a tool.
+  - a human action of type on a keyboard, where releasing precedes repeating.
+  - a human action of type on a keyboard, which involves the fingers as the body part
+    used.
+  - a human action of type on a keyboard, which displays on the screen.
+  - a human action of type on a keyboard, where the keyboard inputs to the screen.
+- - a human action of point to something, where a finger directs at an object.
+  - a human action of point to something, where aiming precedes indicating.
+  - a human action of point to something, where a finger is part of a hand.
+  - a human action of point to something, which involves using a finger.
+  - a human action of point to something, which involves using a hand.
+  - a human action of point to something, where extending precedes aiming.
+  - a human action of point to something, which indicates an object.
+  - a human action of point to something.
+  - a human action of point to something, where a finger directs at an object.
+  - a human action of point to something, where aiming precedes indicating.
+  - a human action of point to something, where a finger is part of a hand.
+  - a human action of point to something, which involves using a finger.
+- - a human action of taking a selfie, where a phone captures the face.
+  - a human action of taking a selfie, where holding precedes positioning.
+  - a human action of taking a selfie, which involves using an arm.
+  - a human action of taking a selfie, where posing precedes capturing.
+  - a human action of taking a selfie, where a phone is held by the arm.
+  - a human action of taking a selfie, where positioning precedes posing.
+  - a human action of taking a selfie, which captures the face.
+  - a human action of taking a selfie, which involves using a phone.
+  - a human action of taking a selfie.
+  - a human action of taking a selfie, where a phone captures the face.
+  - a human action of taking a selfie, where holding precedes positioning.
+  - a human action of taking a selfie, which involves using an arm.
+- - a human action of check time (from watch), where observing precedes processing.
+  - a human action of check time (from watch), which uses the eyes as a body part.
+  - a human action of check time (from watch), where focusing precedes observing.
+  - a human action of check time (from watch).
+  - a human action of check time (from watch), where a watch is worn on the wrist.
+  - a human action of check time (from watch), which involves the wrist.
+  - a human action of check time (from watch), which uses a watch as a tool.
+  - a human action of check time (from watch), where positioning precedes focusing.
+  - a human action of check time (from watch), where a watch is viewed by the eyes.
+  - a human action of check time (from watch), where observing precedes processing.
+  - a human action of check time (from watch), which uses the eyes as a body part.
+  - a human action of check time (from watch), where focusing precedes observing.
+- - a human action of rub two hands, where hands come into contact with each other.
+  - a human action of rub two hands, where pressing precedes moving.
+  - a human action of rub two hands, where moving precedes repeating.
+  - a human action of rub two hands, where palms rub against each other.
+  - a human action of rub two hands.
+  - a human action of rub two hands, where positioning precedes pressing.
+  - a human action of rub two hands, which generates friction.
+  - a human action of rub two hands, which involves using hands.
+  - a human action of rub two hands, where hands come into contact with each other.
+  - a human action of rub two hands, where pressing precedes moving.
+  - a human action of rub two hands, where moving precedes repeating.
+  - a human action of rub two hands, where palms rub against each other.
+- - a human action of nod head/bow, where tilting precedes lowering.
+  - a human action of nod head/bow, where the head is connected to the neck.
+  - a human action of nod head/bow.
+  - a human action of nod head/bow, where raising precedes repeating.
+  - a human action of nod head/bow, where the head tilts with the body.
+  - a human action of nod head/bow, which involves the body.
+  - a human action of nod head/bow, which uses the head.
+  - a human action of nod head/bow, where lowering precedes raising.
+  - a human action of nod head/bow, which uses the neck.
+  - a human action of nod head/bow, where tilting precedes lowering.
+  - a human action of nod head/bow, where the head is connected to the neck.
+  - a human action of nod head/bow.
+- - a human action of shake head.
+  - a human action of shake head, which involves the head.
+  - a human action of shake head, where the head moves horizontally.
+  - a human action of shake head, starting with turning.
+  - a human action of shake head, where reversing precedes repeating.
+  - a human action of shake head, where rotating precedes reversing.
+  - a human action of shake head, which involves the neck.
+  - a human action of shake head, where turning precedes rotating.
+  - a human action of shake head, where the head is rotated by the neck.
+  - a human action of shake head.
+  - a human action of shake head, which involves the head.
+  - a human action of shake head, where the head moves horizontally.
+- - a human action of wipe face, where grasping precedes positioning.
+  - a human action of wipe face, where positioning precedes contacting.
+  - a human action of wipe face, where contacting precedes moving.
+  - a human action of wipe face, which acts on the face.
+  - a human action of wipe face, where the hand contacts the face.
+  - a human action of wipe face, where a tissue wipes the face.
+  - a human action of wipe face, where a tissue is held by the hand.
+  - a human action of wipe face, which may use a tissue.
+  - a human action of wipe face.
+  - a human action of wipe face, which uses the hand.
+  - a human action of wipe face, where grasping precedes positioning.
+  - a human action of wipe face, where positioning precedes contacting.
+- - a human action of salute.
+  - a human action of salute, where touching precedes holding.
+  - a human action of salute, where a hand is connected to an arm.
+  - a human action of salute, where a hand contacts the forehead.
+  - a human action of salute, which targets the forehead.
+  - a human action of salute, where raising precedes positioning.
+  - a human action of salute, starting with raising.
+  - a human action of salute, which involves using the hand.
+  - a human action of salute, where holding comes before lowering.
+  - a human action of salute, where positioning comes before touching.
+  - a human action of salute, which uses the arm.
+  - a human action of salute.
+- - a human action of put palms together, starting with raising.
+  - a human action of put palms together, where aligning precedes pressing.
+  - a human action of put palms together.
+  - a human action of put palms together, where raising precedes positioning.
+  - a human action of put palms together, where positioning comes before aligning.
+  - a human action of put palms together, where palms make contact with each other.
+  - a human action of put palms together, involving palms.
+  - a human action of put palms together, involving hands.
+  - a human action of put palms together, where palms are part of hands.
+  - a human action of put palms together, starting with raising.
+  - a human action of put palms together, where aligning precedes pressing.
+  - a human action of put palms together.
+- - a human action of cross hands in front, where hands are positioned in front of
+    the chest.
+  - a human action of cross hands in front, which uses arms.
+  - a human action of cross hands in front, which positions near the chest.
+  - a human action of cross hands in front, where extending precedes overlapping.
+  - a human action of cross hands in front, where overlapping precedes positioning.
+  - a human action of cross hands in front, where raising precedes extending.
+  - a human action of cross hands in front, where hands are attached to arms.
+  - a human action of cross hands in front, which uses hands.
+  - a human action of cross hands in front.
+  - a human action of cross hands in front, where hands are positioned in front of
+    the chest.
+  - a human action of cross hands in front, which uses arms.
+  - a human action of cross hands in front, which positions near the chest.
+- - a human action of sneeze/cough, where contracting precedes expelling.
+  - a human action of sneeze/cough, which expels air.
+  - a human action of sneeze/cough, where the hand covers the mouth.
+  - a human action of sneeze/cough.
+  - a human action of sneeze/cough, which may use the hand.
+  - a human action of sneeze/cough, where the mouth expels air.
+  - a human action of sneeze/cough, where inhaling precedes contracting.
+  - a human action of sneeze/cough, which uses the mouth.
+  - a human action of sneeze/cough, where expelling precedes covering.
+  - a human action of sneeze/cough, where contracting precedes expelling.
+  - a human action of sneeze/cough, which expels air.
+  - a human action of sneeze/cough, where the hand covers the mouth.
+- - a human action of staggering, where legs support the body.
+  - a human action of staggering, which involves using the feet.
+  - a human action of staggering, which involves the body.
+  - a human action of staggering, where swaying precedes taking a step.
+  - a human action of staggering, where taking a step comes before wobbling.
+  - a human action of staggering, which involves using the legs.
+  - a human action of staggering.
+  - a human action of staggering, where feet balance the body.
+  - a human action of staggering, where wobbling precedes recovering.
+  - a human action of staggering, where legs support the body.
+  - a human action of staggering, which involves using the feet.
+  - a human action of staggering, which involves the body.
+- - a human action of falling down, where the body contacts the ground.
+  - a human action of falling down, which causes the body to lose balance.
+  - a human action of falling down.
+  - a human action of falling down, where impacting precedes lying.
+  - a human action of falling down, which has the ground as the destination.
+  - a human action of falling down, which involves the body.
+  - a human action of falling down, where the body loses balance.
+  - a human action of falling down, where losing balance precedes descending.
+  - a human action of falling down, where descending comes before impacting.
+  - a human action of falling down, where the body contacts the ground.
+  - a human action of falling down, which causes the body to lose balance.
+  - a human action of falling down.
+- - a human action of headache, where massaging precedes pressing the temples.
+  - a human action of headache.
+  - a human action of headache, where grimacing precedes touching the head.
+  - a human action of headache, which affects the head.
+  - a human action of headache, where hands press the temples.
+  - a human action of headache, where touching the head comes before massaging it.
+  - a human action of headache, which focuses on temples.
+  - a human action of headache, where hands touch the head.
+  - a human action of headache, which involves hands.
+  - a human action of headache, where massaging precedes pressing the temples.
+  - a human action of headache.
+  - a human action of headache, where grimacing precedes touching the head.
+- - a human action of chest pain, which affects the chest.
+  - a human action of chest pain, which involves the hand.
+  - a human action of chest pain.
+  - a human action of chest pain, where touching the chest precedes pressing.
+  - a human action of chest pain, where a hand touches the chest.
+  - a human action of chest pain, where pressing precedes rubbing.
+  - a human action of chest pain, which may relate to the heart.
+  - a human action of chest pain, where the chest contains the heart.
+  - a human action of chest pain, where a grimace precedes touching the chest.
+  - a human action of chest pain, which affects the chest.
+  - a human action of chest pain, which involves the hand.
+  - a human action of chest pain.
+- - a human action of back pain, which involves hands.
+  - a human action of back pain, where wincing precedes reaching.
+  - a human action of back pain, which affects the back.
+  - a human action of back pain, where hands reach for the back.
+  - a human action of back pain.
+  - a human action of back pain, where the back contains the spine.
+  - a human action of back pain, which relates to the spine.
+  - a human action of back pain, where reaching precedes touching.
+  - a human action of back pain, where touching precedes rubbing.
+  - a human action of back pain, which involves hands.
+  - a human action of back pain, where wincing precedes reaching.
+  - a human action of back pain, which affects the back.
+- - a human action of neck pain, which involves the hand.
+  - a human action of neck pain, where touching precedes massaging.
+  - a human action of neck pain, where the neck contains muscles.
+  - a human action of neck pain.
+  - a human action of neck pain, where the hand touches the neck.
+  - a human action of neck pain, where grimacing precedes reaching.
+  - a human action of neck pain, which affects the neck.
+  - a human action of neck pain, where reaching precedes touching.
+  - a human action of neck pain, which relates to muscles.
+  - a human action of neck pain, which involves the hand.
+  - a human action of neck pain, where touching precedes massaging.
+  - a human action of neck pain, where the neck contains muscles.
+- - a human action of nausea/vomiting, where bending comes before heaving.
+  - a human action of nausea/vomiting, which affects the stomach.
+  - a human action of nausea/vomiting.
+  - a human action of nausea/vomiting, which involves the mouth.
+  - a human action of nausea/vomiting, where the hand covers the mouth.
+  - a human action of nausea/vomiting, where a grimace precedes bending.
+  - a human action of nausea/vomiting, where heaving precedes expelling.
+  - a human action of nausea/vomiting, where the stomach connects to the mouth.
+  - a human action of nausea/vomiting, which may use the hand.
+  - a human action of nausea/vomiting, where bending comes before heaving.
+  - a human action of nausea/vomiting, which affects the stomach.
+  - a human action of nausea/vomiting.
+- - a human action of fan self, waving before repeating.
+  - a human action of fan self, positioning before waving.
+  - a human action of fan self.
+  - a human action of fan self, moving the air.
+  - a human action of fan self, raising before positioning.
+  - a human action of fan self, using the hand as a body part.
+  - a human action of fan self, targeting the face.
+  - a human action of fan self, where the air cools the face.
+  - a human action of fan self, where a hand moves the air.
+  - a human action of fan self, waving before repeating.
+  - a human action of fan self, positioning before waving.
+  - a human action of fan self.
+- - a human action of punch/slap, which uses the arm as a body part.
+  - a human action of punch/slap.
+  - a human action of punch/slap, where a hand is attached to an arm.
+  - a human action of punch/slap, where a hand impacts a target.
+  - a human action of punch/slap, where aiming precedes extending.
+  - a human action of punch/slap, which affects a target.
+  - a human action of punch/slap, where impacting precedes retracting.
+  - a human action of punch/slap, where extending precedes impacting.
+  - a human action of punch/slap, which uses the hand as a body part.
+  - a human action of punch/slap, which uses the arm as a body part.
+  - a human action of punch/slap.
+  - a human action of punch/slap, where a hand is attached to an arm.
+- - a human action of kicking, where impacting precedes retracting.
+  - a human action of kicking, where balancing precedes aiming.
+  - a human action of kicking.
+  - a human action of kicking, where extending precedes impacting.
+  - a human action of kicking, using the foot as a body part.
+  - a human action of kicking, where aiming precedes extending.
+  - a human action of kicking, involving the foot attached to the leg.
+  - a human action of kicking, where the foot impacts a target.
+  - a human action of kicking, using the leg as a body part.
+  - a human action of kicking, affecting a target.
+  - a human action of kicking, where impacting precedes retracting.
+  - a human action of kicking, where balancing precedes aiming.
+- - a human action of pushing, where positioning comes before making contact.
+  - a human action of pushing, which involves using arms.
+  - a human action of pushing, where hands make contact with an object.
+  - a human action of pushing, which affects an object.
+  - a human action of pushing.
+  - a human action of pushing, where hands are attached to arms.
+  - a human action of pushing, which involves using hands.
+  - a human action of pushing, where exerting force comes before moving.
+  - a human action of pushing, where making contact precedes exerting force.
+  - a human action of pushing, where positioning comes before making contact.
+  - a human action of pushing, which involves using arms.
+  - a human action of pushing, where hands make contact with an object.
+- - a human action of pat on back, which involves using the hand.
+  - a human action of pat on back.
+  - a human action of pat on back, starting with reaching.
+  - a human action of pat on back, which targets the back.
+  - a human action of pat on back, where a hand contacts the back.
+  - a human action of pat on back, which is directed at a person.
+  - a human action of pat on back, where tapping comes before retracting.
+  - a human action of pat on back, where the back belongs to a person.
+  - a human action of pat on back, where contacting precedes tapping.
+  - a human action of pat on back, which involves using the hand.
+  - a human action of pat on back.
+  - a human action of pat on back, starting with reaching.
+- - a human action of point finger, where aiming precedes holding the pointed position.
+  - a human action of point finger, which uses the hand as a body part.
+  - a human action of point finger, where a finger is a part of a hand.
+  - a human action of point finger, where raising precedes extending the finger.
+  - a human action of point finger.
+  - a human action of point finger, which indicates a target.
+  - a human action of point finger, where a finger is directed at a target.
+  - a human action of point finger, which uses the finger as a body part.
+  - a human action of point finger, where extending the finger precedes aiming.
+  - a human action of point finger, where aiming precedes holding the pointed position.
+  - a human action of point finger, which uses the hand as a body part.
+  - a human action of point finger, where a finger is a part of a hand.
+- - a human action of hugging, where a body contacts a person.
+  - a human action of hugging, starting with approaching.
+  - a human action of hugging, where holding precedes releasing.
+  - a human action of hugging, where embracing precedes holding.
+  - a human action of hugging, which has a recipient who is a person.
+  - a human action of hugging, which involves the body.
+  - a human action of hugging, where arms encircle a person.
+  - a human action of hugging.
+  - a human action of hugging, where approaching precedes extending.
+  - a human action of hugging, which involves using arms.
+  - a human action of hugging, where extending precedes embracing.
+  - a human action of hugging, where a body contacts a person.
+- - a human action of giving object, where an object is held by hands.
+  - a human action of giving object, where an object is transferred to a recipient.
+  - a human action of giving object, where offering the object comes before releasing
+    it.
+  - a human action of giving object.
+  - a human action of giving object, using hands as the body part.
+  - a human action of giving object, having a recipient for the object.
+  - a human action of giving object, where extending the object precedes offering
+    it.
+  - a human action of giving object, where holding the object is followed by extending
+    it.
+  - a human action of giving object, starting with holding the object.
+  - a human action of giving object, involving the patient object.
+  - a human action of giving object, where an object is held by hands.
+  - a human action of giving object, where an object is transferred to a recipient.
+- - a human action of touch pocket, where contacting precedes patting.
+  - a human action of touch pocket, where reaching precedes locating.
+  - a human action of touch pocket, where a pocket is part of clothing.
+  - a human action of touch pocket, where a hand contacts a pocket.
+  - a human action of touch pocket, where locating precedes contacting.
+  - a human action of touch pocket, which relates to clothing.
+  - a human action of touch pocket.
+  - a human action of touch pocket, which uses the hand.
+  - a human action of touch pocket, which targets a pocket.
+  - a human action of touch pocket, where contacting precedes patting.
+  - a human action of touch pocket, where reaching precedes locating.
+  - a human action of touch pocket, where a pocket is part of clothing.
+- - a human action of shaking hands, where pumping comes before releasing.
+  - a human action of shaking hands, where hands make contact with each other.
+  - a human action of shaking hands, which involves persons.
+  - a human action of shaking hands, where extending comes before grasping.
+  - a human action of shaking hands.
+  - a human action of shaking hands, which uses arms as a body part.
+  - a human action of shaking hands, where hands are attached to arms.
+  - a human action of shaking hands, where grasping precedes pumping.
+  - a human action of shaking hands, which uses hands as a body part.
+  - a human action of shaking hands, where pumping comes before releasing.
+  - a human action of shaking hands, where hands make contact with each other.
+  - a human action of shaking hands, which involves persons.
+- - a human action of walking towards, where legs move feet.
+  - a human action of walking towards, where feet approach a destination.
+  - a human action of walking towards, where finding balance precedes advancing.
+  - a human action of walking towards, which uses legs.
+  - a human action of walking towards.
+  - a human action of walking towards, where stepping precedes finding balance.
+  - a human action of walking towards, where advancing precedes approaching.
+  - a human action of walking towards, which has a destination.
+  - a human action of walking towards, which uses feet.
+  - a human action of walking towards, where legs move feet.
+  - a human action of walking towards, where feet approach a destination.
+  - a human action of walking towards, where finding balance precedes advancing.
+- - a human action of walking apart.
+  - a human action of walking apart, which involves using legs.
+  - a human action of walking apart, where feet increase distance.
+  - a human action of walking apart, where turning precedes taking a step.
+  - a human action of walking apart, where taking a step precedes moving.
+  - a human action of walking apart, which increases distance.
+  - a human action of walking apart, where moving precedes separating.
+  - a human action of walking apart, which involves using feet.
+  - a human action of walking apart, where legs move feet.
+  - a human action of walking apart.
+  - a human action of walking apart, which involves using legs.
+  - a human action of walking apart, where feet increase distance.
+- - a human action of put on headphone.
+  - a human action of put on headphone, targeting ears.
+  - a human action of put on headphone, where headphones are manipulated by hands.
+  - a human action of put on headphone, placing before adjusting.
+  - a human action of put on headphone, using hands.
+  - a human action of put on headphone, involving headphones.
+  - a human action of put on headphone, grasping before positioning.
+  - a human action of put on headphone, positioning before placing.
+  - a human action of put on headphone, where headphones cover the ears.
+  - a human action of put on headphone.
+  - a human action of put on headphone, targeting ears.
+  - a human action of put on headphone, where headphones are manipulated by hands.
+- - a human action of take off headphone, where headphones are removed from the ears.
+  - a human action of take off headphone, sourced from the ears.
+  - a human action of take off headphone, using hands as body parts.
+  - a human action of take off headphone, with grasping preceding lifting.
+  - a human action of take off headphone, where lifting precedes removing.
+  - a human action of take off headphone.
+  - a human action of take off headphone, where removing comes before setting.
+  - a human action of take off headphone, involving headphones.
+  - a human action of take off headphone, where headphones are grasped by the hands.
+  - a human action of take off headphone, where headphones are removed from the ears.
+  - a human action of take off headphone, sourced from the ears.
+  - a human action of take off headphone, using hands as body parts.
+- - a human action of shoot at basket, involving a ball.
+  - a human action of shoot at basket, where a ball is held by hands.
+  - a human action of shoot at basket, using hands.
+  - a human action of shoot at basket, where pushing precedes releasing.
+  - a human action of shoot at basket, targeting a basket.
+  - a human action of shoot at basket, starting with positioning.
+  - a human action of shoot at basket, where aiming comes before pushing.
+  - a human action of shoot at basket.
+  - a human action of shoot at basket, where a ball is propelled towards a basket.
+  - a human action of shoot at basket, involving a ball.
+  - a human action of shoot at basket, where a ball is held by hands.
+  - a human action of shoot at basket, using hands.
+- - a human action of bounce ball, starting with grasping.
+  - a human action of bounce ball.
+  - a human action of bounce ball, where a ball impacts a surface.
+  - a human action of bounce ball, which has the ball as a patient.
+  - a human action of bounce ball, which uses a surface.
+  - a human action of bounce ball, where pushing comes after grasping.
+  - a human action of bounce ball, where releasing comes after pushing.
+  - a human action of bounce ball, where a ball is controlled by a hand.
+  - a human action of bounce ball, which uses the hand as a body part.
+  - a human action of bounce ball, where catching comes after releasing.
+  - a human action of bounce ball, starting with grasping.
+  - a human action of bounce ball.
+- - a human action of tennis bat swing.
+  - a human action of tennis bat swing, where a racket strikes a ball.
+  - a human action of tennis bat swing, where the backswing comes before the swing.
+  - a human action of tennis bat swing, where the swing precedes the follow.
+  - a human action of tennis bat swing, which targets a ball.
+  - a human action of tennis bat swing, which uses a racket as a tool.
+  - a human action of tennis bat swing, where a racket is held by the arm.
+  - a human action of tennis bat swing, starting with gripping.
+  - a human action of tennis bat swing, which involves the arm as a body part.
+  - a human action of tennis bat swing, where positioning precedes the backswing.
+  - a human action of tennis bat swing.
+  - a human action of tennis bat swing, where a racket strikes a ball.
+- - a human action of juggle table tennis ball, which uses a racket as a tool.
+  - a human action of juggle table tennis ball, where tapping precedes controlling.
+  - a human action of juggle table tennis ball, where a ball bounces on a racket.
+  - a human action of juggle table tennis ball, where balancing precedes repeating.
+  - a human action of juggle table tennis ball, where controlling precedes balancing.
+  - a human action of juggle table tennis ball, where a racket is controlled by hand.
+  - a human action of juggle table tennis ball.
+  - a human action of juggle table tennis ball, which involves a ball as the patient.
+  - a human action of juggle table tennis ball, starting with tapping.
+  - a human action of juggle table tennis ball, which uses the hand as a body part.
+  - a human action of juggle table tennis ball, which uses a racket as a tool.
+  - a human action of juggle table tennis ball, where tapping precedes controlling.
+- - a human action of hush, where pressing precedes signaling.
+  - a human action of hush.
+  - a human action of hush, which controls the air.
+  - a human action of hush, where a finger contacts the lips.
+  - a human action of hush, where positioning comes before pressing.
+  - a human action of hush, where the lips control the air.
+  - a human action of hush, which uses the lips.
+  - a human action of hush, where raising precedes positioning.
+  - a human action of hush, which uses the finger.
+  - a human action of hush, where pressing precedes signaling.
+  - a human action of hush.
+  - a human action of hush, which controls the air.
+- - a human action of flick hair, where making contact precedes swiping.
+  - a human action of flick hair, where raising precedes making contact.
+  - a human action of flick hair, involving fingers as part of the hand making contact
+    with the hair.
+  - a human action of flick hair, where swiping precedes tossing.
+  - a human action of flick hair.
+  - a human action of flick hair, using the hand and fingers to affect the hair.
+  - a human action of flick hair, where making contact precedes swiping.
+  - a human action of flick hair, where raising precedes making contact.
+  - a human action of flick hair, involving fingers as part of the hand making contact
+    with the hair.
+  - a human action of flick hair, where swiping precedes tossing.
+  - a human action of flick hair.
+  - a human action of flick hair, using the hand and fingers to affect the hair.
+- - a human action of thumb up, which uses the hand as a body part.
+  - a human action of thumb up.
+  - a human action of thumb up, where the thumb is part of the hand.
+  - a human action of thumb up, where positioning precedes holding.
+  - a human action of thumb up, where forming precedes extending.
+  - a human action of thumb up, which forms a fist.
+  - a human action of thumb up, where the thumb extends from a fist.
+  - a human action of thumb up, which uses the thumb as a body part.
+  - a human action of thumb up, where extending comes before positioning.
+  - a human action of thumb up, which uses the hand as a body part.
+  - a human action of thumb up.
+  - a human action of thumb up, where the thumb is part of the hand.
+- - a human action of thumb down, forming before extending.
+  - a human action of thumb down, where the thumb is part of the hand.
+  - a human action of thumb down, which uses the thumb as a body part.
+  - a human action of thumb down, which forms a fist.
+  - a human action of thumb down.
+  - a human action of thumb down, extending before positioning.
+  - a human action of thumb down, which uses the hand as a body part.
+  - a human action of thumb down, where the thumb extends from a fist.
+  - a human action of thumb down, positioning before holding.
+  - a human action of thumb down, forming before extending.
+  - a human action of thumb down, where the thumb is part of the hand.
+  - a human action of thumb down, which uses the thumb as a body part.
+- - a human action of make OK sign.
+  - a human action of make OK sign, where extending comes before connecting.
+  - a human action of make OK sign, where the thumb is part of the hand.
+  - a human action of make OK sign, where the thumb contacts the index finger.
+  - a human action of make OK sign, which uses the thumb.
+  - a human action of make OK sign, where positioning comes before extending.
+  - a human action of make OK sign, where connecting comes before displaying.
+  - a human action of make OK sign, where the index finger is part of the hand.
+  - a human action of make OK sign, which involves the hand.
+  - a human action of make OK sign, which uses the index finger.
+  - a human action of make OK sign.
+  - a human action of make OK sign, where extending comes before connecting.
+- - a human action of make victory sign, where fingers form a v-shape.
+  - a human action of make victory sign, which uses fingers as a body part.
+  - a human action of make victory sign, which uses the hand as a body part.
+  - a human action of make victory sign, where separating precedes positioning.
+  - a human action of make victory sign, where positioning precedes displaying.
+  - a human action of make victory sign.
+  - a human action of make victory sign, where extending precedes separating.
+  - a human action of make victory sign, where fingers are part of the hand.
+  - a human action of make victory sign, where fingers form a v-shape.
+  - a human action of make victory sign, which uses fingers as a body part.
+  - a human action of make victory sign, which uses the hand as a body part.
+  - a human action of make victory sign, where separating precedes positioning.
+- - a human action of staple book, where a stapler binds paper.
+  - a human action of staple book, which uses a stapler as a tool.
+  - a human action of staple book, where aligning precedes positioning.
+  - a human action of staple book, where a stapler is operated by a hand.
+  - a human action of staple book, where placing precedes pressing.
+  - a human action of staple book.
+  - a human action of staple book, which uses the hand as a body part.
+  - a human action of staple book, which has paper as a patient.
+  - a human action of staple book, where positioning comes before placing.
+  - a human action of staple book, where a stapler binds paper.
+  - a human action of staple book, which uses a stapler as a tool.
+  - a human action of staple book, where aligning precedes positioning.
+- - a human action of counting money, where separating precedes counting.
+  - a human action of counting money, where fingers are part of hands.
+  - a human action of counting money, starting with grasping.
+  - a human action of counting money, where counting comes before stacking.
+  - a human action of counting money.
+  - a human action of counting money, involving money as the patient.
+  - a human action of counting money, utilizing hands as a body part.
+  - a human action of counting money, utilizing fingers as a body part.
+  - a human action of counting money, where money is handled by hands.
+  - a human action of counting money, where separating precedes counting.
+  - a human action of counting money, where fingers are part of hands.
+  - a human action of counting money, starting with grasping.
+- - a human action of cutting nails, where nails are part of fingers.
+  - a human action of cutting nails, which has nails as the patient.
+  - a human action of cutting nails, where pressing precedes trimming.
+  - a human action of cutting nails.
+  - a human action of cutting nails, where a clipper cuts nails.
+  - a human action of cutting nails, which involves fingers.
+  - a human action of cutting nails, where positioning comes before pressing.
+  - a human action of cutting nails, where holding precedes positioning.
+  - a human action of cutting nails, which uses a clipper as a tool.
+  - a human action of cutting nails, where nails are part of fingers.
+  - a human action of cutting nails, which has nails as the patient.
+  - a human action of cutting nails, where pressing precedes trimming.
+- - a human action of cutting paper, which uses scissors as a tool.
+  - a human action of cutting paper.
+  - a human action of cutting paper, where scissors are operated by hands.
+  - a human action of cutting paper, where grasping precedes positioning.
+  - a human action of cutting paper, where scissors cuts paper.
+  - a human action of cutting paper, which uses hands as a body part.
+  - a human action of cutting paper, which involves paper as the patient.
+  - a human action of cutting paper, where positioning comes before opening.
+  - a human action of cutting paper, where opening precedes closing.
+  - a human action of cutting paper, where closing comes before moving.
+  - a human action of cutting paper, which uses scissors as a tool.
+  - a human action of cutting paper.
+- - a human action of snap fingers.
+  - a human action of snap fingers, where the thumb contacts the fingers.
+  - a human action of snap fingers, where sliding precedes releasing.
+  - a human action of snap fingers, where positioning precedes pressing.
+  - a human action of snap fingers, which uses the thumb as a body part.
+  - a human action of snap fingers, where fingers are part of the hand.
+  - a human action of snap fingers, which uses the fingers as a body part.
+  - a human action of snap fingers, which involves the hand.
+  - a human action of snap fingers, where pressing precedes sliding.
+  - a human action of snap fingers.
+  - a human action of snap fingers, where the thumb contacts the fingers.
+  - a human action of snap fingers, where sliding precedes releasing.
+- - a human action of open bottle.
+  - a human action of open bottle, which uses the hand as a body part.
+  - a human action of open bottle, which has a bottle as a patient.
+  - a human action of open bottle, where grasping precedes gripping.
+  - a human action of open bottle, where twisting precedes removing.
+  - a human action of open bottle, which removes the cap.
+  - a human action of open bottle, where the cap is removed by the hand.
+  - a human action of open bottle, where the cap is attached to the bottle.
+  - a human action of open bottle, where gripping comes before twisting.
+  - a human action of open bottle.
+  - a human action of open bottle, which uses the hand as a body part.
+  - a human action of open bottle, which has a bottle as a patient.
+- - a human action of sniff/smell.
+  - a human action of sniff/smell, where the nose draws in air.
+  - a human action of sniff/smell, where detecting precedes processing.
+  - a human action of sniff/smell, which inhales air.
+  - a human action of sniff/smell, which detects an object.
+  - a human action of sniff/smell, where air carries scent from an object.
+  - a human action of sniff/smell, where inhaling precedes detecting.
+  - a human action of sniff/smell, which uses the nose.
+  - a human action of sniff/smell, where approaching precedes inhaling.
+  - a human action of sniff/smell.
+  - a human action of sniff/smell, where the nose draws in air.
+  - a human action of sniff/smell, where detecting precedes processing.
+- - a human action of squat down, where legs bend at the knees.
+  - a human action of squat down, where legs lower the body.
+  - a human action of squat down, where being in a position precedes bending.
+  - a human action of squat down, which involves lowering the body.
+  - a human action of squat down, where bending precedes lowering.
+  - a human action of squat down, where lowering precedes finding balance.
+  - a human action of squat down, which involves bending the knees.
+  - a human action of squat down.
+  - a human action of squat down, which uses the legs.
+  - a human action of squat down, where legs bend at the knees.
+  - a human action of squat down, where legs lower the body.
+  - a human action of squat down, where being in a position precedes bending.
+- - a human action of toss a coin, using a hand.
+  - a human action of toss a coin, where tracking precedes catching.
+  - a human action of toss a coin, where flicking comes before tracking.
+  - a human action of toss a coin, starting with grasping.
+  - a human action of toss a coin, where a coin is propelled into the air.
+  - a human action of toss a coin, where a coin is held by a hand.
+  - a human action of toss a coin, where positioning precedes flicking.
+  - a human action of toss a coin.
+  - a human action of toss a coin, involving air.
+  - a human action of toss a coin, involving a coin.
+  - a human action of toss a coin, using a hand.
+  - a human action of toss a coin, where tracking precedes catching.
+- - a human action of fold paper, where fingers are part of hands.
+  - a human action of fold paper, which uses hands as a body part.
+  - a human action of fold paper, where grasping precedes positioning.
+  - a human action of fold paper, which uses fingers as a body part.
+  - a human action of fold paper, where positioning comes before creasing.
+  - a human action of fold paper, where creasing precedes pressing.
+  - a human action of fold paper, which has paper as the patient.
+  - a human action of fold paper, where paper is manipulated by hands.
+  - a human action of fold paper.
+  - a human action of fold paper, where fingers are part of hands.
+  - a human action of fold paper, which uses hands as a body part.
+  - a human action of fold paper, where grasping precedes positioning.
+- - a human action of ball up paper, using hands.
+  - a human action of ball up paper, where paper is transformed into a ball.
+  - a human action of ball up paper, where compressing precedes shaping.
+  - a human action of ball up paper, where hands manipulate paper.
+  - a human action of ball up paper, involving paper.
+  - a human action of ball up paper.
+  - a human action of ball up paper, creating a ball.
+  - a human action of ball up paper, starting with grasping.
+  - a human action of ball up paper, where grasping precedes crumpling.
+  - a human action of ball up paper, where crumpling comes before compressing.
+  - a human action of ball up paper, using hands.
+  - a human action of ball up paper, where paper is transformed into a ball.
+- - a human action of play magic cube.
+  - a human action of play magic cube, where fingers rotate the cube.
+  - a human action of play magic cube, involving a cube as a patient.
+  - a human action of play magic cube, where a cube is manipulated by hands.
+  - a human action of play magic cube, observing the cube precedes rotating it.
+  - a human action of play magic cube, using fingers as a body part.
+  - a human action of play magic cube, using hands as a body part.
+  - a human action of play magic cube, rotating the cube precedes solving it.
+  - a human action of play magic cube, holding the cube precedes observing it.
+  - a human action of play magic cube.
+  - a human action of play magic cube, where fingers rotate the cube.
+  - a human action of play magic cube, involving a cube as a patient.
+- - a human action of apply cream on face.
+  - a human action of apply cream on face, where rubbing precedes spreading.
+  - a human action of apply cream on face, which has the face as the destination.
+  - a human action of apply cream on face, where cream is spread by hands.
+  - a human action of apply cream on face, which has the cream as the patient.
+  - a human action of apply cream on face, which uses the hands as a body part.
+  - a human action of apply cream on face, where scooping precedes rubbing.
+  - a human action of apply cream on face, where spreading precedes rubbing.
+  - a human action of apply cream on face, where cream is applied to the face.
+  - a human action of apply cream on face.
+  - a human action of apply cream on face, where rubbing precedes spreading.
+  - a human action of apply cream on face, which has the face as the destination.
+- - a human action of apply cream on hand, positioning before adjusting.
+  - a human action of apply cream on hand, grasping before lifting.
+  - a human action of apply cream on hand, which uses the hand.
+  - a human action of apply cream on hand, where a bag is manipulated by hand.
+  - a human action of apply cream on hand, where a bag is placed on a shoulder.
+  - a human action of apply cream on hand, which involves a bag.
+  - a human action of apply cream on hand, which has a destination of a shoulder.
+  - a human action of apply cream on hand, lifting before positioning.
+  - a human action of apply cream on hand.
+  - a human action of apply cream on hand, positioning before adjusting.
+  - a human action of apply cream on hand, grasping before lifting.
+  - a human action of apply cream on hand, which uses the hand.
+- - a human action of put on bag, where removing precedes lowering.
+  - a human action of put on bag, where grasping precedes lifting.
+  - a human action of put on bag, where lifting precedes removing.
+  - a human action of put on bag, where a bag is removed from a shoulder.
+  - a human action of put on bag, which has a source of the shoulder.
+  - a human action of put on bag, which uses the hand as a body part.
+  - a human action of put on bag, which involves a bag.
+  - a human action of put on bag, where a bag is grasped by a hand.
+  - a human action of put on bag.
+  - a human action of put on bag, where removing precedes lowering.
+  - a human action of put on bag, where grasping precedes lifting.
+  - a human action of put on bag, where lifting precedes removing.
+- - a human action of take off bag, where an object is placed into a bag.
+  - a human action of take off bag, where inserting precedes releasing.
+  - a human action of take off bag.
+  - a human action of take off bag, which has the object as a patient.
+  - a human action of take off bag, where holding precedes opening.
+  - a human action of take off bag, which has a bag as a destination.
+  - a human action of take off bag, where opening comes before inserting.
+  - a human action of take off bag, where an object is held by a hand.
+  - a human action of take off bag, which uses the hand as a body part.
+  - a human action of take off bag, where an object is placed into a bag.
+  - a human action of take off bag, where inserting precedes releasing.
+  - a human action of take off bag.
+- - a human action of put object into bag, which uses the hand as a body part.
+  - a human action of put object into bag, where an object is removed from a bag.
+  - a human action of put object into bag, where reaching precedes grasping.
+  - a human action of put object into bag, which has the bag as a source.
+  - a human action of put object into bag, where grasping comes before extracting.
+  - a human action of put object into bag, which has the object as a patient.
+  - a human action of put object into bag.
+  - a human action of put object into bag, where opening precedes reaching.
+  - a human action of put object into bag, where an object is grasped by a hand.
+  - a human action of put object into bag, which uses the hand as a body part.
+  - a human action of put object into bag, where an object is removed from a bag.
+  - a human action of put object into bag, where reaching precedes grasping.
+- - a human action of take object out of bag, manipulating a lid.
+  - a human action of take object out of bag, involving a box.
+  - a human action of take object out of bag, using hands as a body part.
+  - a human action of take object out of bag, where a lid is manipulated by hands.
+  - a human action of take object out of bag, where a lid is part of a box.
+  - a human action of take object out of bag.
+  - a human action of take object out of bag, where positioning comes before lifting.
+  - a human action of take object out of bag, where grasping precedes positioning.
+  - a human action of take object out of bag, where lifting precedes separating.
+  - a human action of take object out of bag, manipulating a lid.
+  - a human action of take object out of bag, involving a box.
+  - a human action of take object out of bag, using hands as a body part.
+- - a human action of open a box.
+  - a human action of open a box, where gripping precedes bracing.
+  - a human action of open a box, where hands lift an object.
+  - a human action of open a box, using body as a body part.
+  - a human action of open a box, where a body transports an object.
+  - a human action of open a box, where bracing precedes lifting.
+  - a human action of open a box, where lifting precedes carrying.
+  - a human action of open a box, where carrying precedes placing.
+  - a human action of open a box, with a patient being an object.
+  - a human action of open a box, using hands as a body part.
+  - a human action of open a box.
+  - a human action of open a box, where gripping precedes bracing.
+- - a human action of move heavy objects, raising before moving.
+  - a human action of move heavy objects, where a fist is formed by a hand.
+  - a human action of move heavy objects, which involves using an arm.
+  - a human action of move heavy objects.
+  - a human action of move heavy objects, where a hand is attached to an arm.
+  - a human action of move heavy objects, which involves using a hand.
+  - a human action of move heavy objects, moving before repeating.
+  - a human action of move heavy objects, clenching before raising.
+  - a human action of move heavy objects, which involves using a fist.
+  - a human action of move heavy objects, raising before moving.
+  - a human action of move heavy objects, where a fist is formed by a hand.
+  - a human action of move heavy objects, which involves using an arm.
+- - a human action of shake fist, where a cap is tossed into the air.
+  - a human action of shake fist, which involves the air.
+  - a human action of shake fist, where grasping precedes winding.
+  - a human action of shake fist, which has a cap as the patient.
+  - a human action of shake fist, where a cap is held by a hand.
+  - a human action of shake fist, where tossing precedes watching.
+  - a human action of shake fist, which uses the hand as the body part.
+  - a human action of shake fist, where winding precedes tossing.
+  - a human action of shake fist, where watching precedes catching.
+  - a human action of shake fist.
+  - a human action of shake fist, where a cap is tossed into the air.
+  - a human action of shake fist, which involves the air.
+- - a human action of throw up cap/hat, where raising precedes extending.
+  - a human action of throw up cap/hat, which uses arms as a body part.
+  - a human action of throw up cap/hat, where extending precedes displaying.
+  - a human action of throw up cap/hat, where hands are raised by arms.
+  - a human action of throw up cap/hat, which involves the body.
+  - a human action of throw up cap/hat, where displaying precedes maintaining.
+  - a human action of throw up cap/hat.
+  - a human action of throw up cap/hat, which uses hands as a body part.
+  - a human action of throw up cap/hat, where arms are part of the body.
+  - a human action of throw up cap/hat, where raising precedes extending.
+  - a human action of throw up cap/hat, which uses arms as a body part.
+  - a human action of throw up cap/hat, where extending precedes displaying.
+- - a human action of capitulate, where arms are folded across the chest.
+  - a human action of capitulate, where overlapping precedes positioning.
+  - a human action of capitulate, which positions over the chest.
+  - a human action of capitulate, which involves the elbows.
+  - a human action of capitulate, which uses the arms.
+  - a human action of capitulate.
+  - a human action of capitulate, where arms bend at the elbows.
+  - a human action of capitulate, where raising precedes bending.
+  - a human action of capitulate, where bending precedes overlapping.
+  - a human action of capitulate, where arms are folded across the chest.
+  - a human action of capitulate, where overlapping precedes positioning.
+  - a human action of capitulate, which positions over the chest.
+- - a human action of cross arms, which pivots at the shoulders.
+  - a human action of cross arms, which involves the body.
+  - a human action of cross arms, that starts with extending.
+  - a human action of cross arms, where arms rotate from the shoulders.
+  - a human action of cross arms, where arms are part of the body.
+  - a human action of cross arms, where repeating comes after circling.
+  - a human action of cross arms, where circling comes after rotating.
+  - a human action of cross arms.
+  - a human action of cross arms, where rotating comes after extending.
+  - a human action of cross arms, which uses the arms.
+  - a human action of cross arms, which pivots at the shoulders.
+  - a human action of cross arms, which involves the body.
+- - a human action of arm circles, which uses the arms.
+  - a human action of arm circles, where extending precedes swinging.
+  - a human action of arm circles, where arms pivot at the shoulders.
+  - a human action of arm circles, which involves the body.
+  - a human action of arm circles, where swinging precedes reversing.
+  - a human action of arm circles, where reversing precedes repeating.
+  - a human action of arm circles.
+  - a human action of arm circles, where positioning precedes extending.
+  - a human action of arm circles, which pivots at the shoulders.
+  - a human action of arm circles, where arms are part of the body.
+  - a human action of arm circles, which uses the arms.
+  - a human action of arm circles, where extending precedes swinging.
+- - a human action of arm swings.
+  - a human action of arm swings, which involves the legs.
+  - a human action of arm swings, which involves the body.
+  - a human action of arm swings, where lowering comes before alternating.
+  - a human action of arm swings, where alternating comes before repeating.
+  - a human action of arm swings, where lifting comes before lowering.
+  - a human action of arm swings, where legs lift the feet.
+  - a human action of arm swings, where legs support the body.
+  - a human action of arm swings, where balancing comes before lifting.
+  - a human action of arm swings, which involves the feet.
+  - a human action of arm swings.
+  - a human action of arm swings, which involves the legs.
+- - a human action of run on the spot, starting with standing.
+  - a human action of run on the spot, which targets the buttocks.
+  - a human action of run on the spot, which uses feet as a body part.
+  - a human action of run on the spot, where feet are kicked toward the buttocks.
+  - a human action of run on the spot, where bending precedes kicking.
+  - a human action of run on the spot, which uses legs as a body part.
+  - a human action of run on the spot.
+  - a human action of run on the spot, where alternation precedes repeating.
+  - a human action of run on the spot, where kicking comes before alternation.
+  - a human action of run on the spot, where legs bend at the knees.
+  - a human action of run on the spot, starting with standing.
+  - a human action of run on the spot, which targets the buttocks.
+- - a human action of butt kicks, where reaching comes before touching.
+  - a human action of butt kicks, where a hand reaches for a toe.
+  - a human action of butt kicks, where touching precedes returning.
+  - a human action of butt kicks, which involves the body.
+  - a human action of butt kicks, where bending precedes reaching.
+  - a human action of butt kicks, which targets the toe.
+  - a human action of butt kicks, which uses the hand as a body part.
+  - a human action of butt kicks, where the body bends forwards.
+  - a human action of butt kicks.
+  - a human action of butt kicks, starting with standing.
+  - a human action of butt kicks, where reaching comes before touching.
+  - a human action of butt kicks, where a hand reaches for a toe.
+- - a human action of cross toe touch, which involves the body.
+  - a human action of cross toe touch, where a leg extends from the body.
+  - a human action of cross toe touch, where raising precedes extending.
+  - a human action of cross toe touch.
+  - a human action of cross toe touch, where kicking precedes retracting.
+  - a human action of cross toe touch, which uses the leg as a body part.
+  - a human action of cross toe touch, where a foot is attached to a leg.
+  - a human action of cross toe touch, which uses the foot as a body part.
+  - a human action of cross toe touch, where balancing precedes raising.
+  - a human action of cross toe touch, where extending precedes kicking.
+  - a human action of cross toe touch, which involves the body.
+  - a human action of cross toe touch, where a leg extends from the body.
+- - a human action of side kick.
+  - a human action of side kick, which uses the mouth.
+  - a human action of side kick, which involves the lungs.
+  - a human action of side kick, where exhaling precedes closing.
+  - a human action of side kick, where inhaling precedes expanding.
+  - a human action of side kick, where the hand may cover the mouth.
+  - a human action of side kick, where expanding comes before exhaling.
+  - a human action of side kick, where the mouth inhales into the lungs.
+  - a human action of side kick, which may use the hand.
+  - a human action of side kick, starting with opening.
+  - a human action of side kick.
+  - a human action of side kick, which uses the mouth.
+- - a human action of yawn, where arms extend from the body.
+  - a human action of yawn, starting with extending.
+  - a human action of yawn, where extending precedes reaching.
+  - a human action of yawn, where lengthening precedes holding.
+  - a human action of yawn, where muscles are part of the body.
+  - a human action of yawn, where reaching comes before lengthening.
+  - a human action of yawn.
+  - a human action of yawn, which involves the body.
+  - a human action of yawn, which uses the arms.
+  - a human action of yawn, where holding comes before releasing.
+  - a human action of yawn, which targets muscles.
+  - a human action of yawn, where arms extend from the body.
+- - a human action of stretch oneself, which uses the hand.
+  - a human action of stretch oneself, where positioning precedes exhaling.
+  - a human action of stretch oneself, where wiping precedes disposing.
+  - a human action of stretch oneself, starting with grasping.
+  - a human action of stretch oneself, where exhaling comes before wiping.
+  - a human action of stretch oneself, which involves using a tissue.
+  - a human action of stretch oneself, where a tissue is held to the nose.
+  - a human action of stretch oneself, which acts on the nose.
+  - a human action of stretch oneself.
+  - a human action of stretch oneself, where a tissue is held by the hand.
+  - a human action of stretch oneself, which uses the hand.
+  - a human action of stretch oneself, where positioning precedes exhaling.
+- - a human action of blow nose, where aiming comes before swinging.
+  - a human action of blow nose, where an object strikes a target.
+  - a human action of blow nose, which uses a tool (object).
+  - a human action of blow nose, where swinging precedes the impact.
+  - a human action of blow nose, starting with grasping.
+  - a human action of blow nose, where the impact comes before the withdrawal.
+  - a human action of blow nose.
+  - a human action of blow nose, which affects a target.
+  - a human action of blow nose, where an object is held by a hand.
+  - a human action of blow nose, which involves a hand.
+  - a human action of blow nose, where aiming comes before swinging.
+  - a human action of blow nose, where an object strikes a target.
+- - a human action of hit with object, starting with grasping.
+  - a human action of hit with object, which involves using a hand.
+  - a human action of hit with object, which threatens a target.
+  - a human action of hit with object, where pointing the knife precedes brandishing
+    it.
+  - a human action of hit with object, where raising the knife comes before pointing
+    it.
+  - a human action of hit with object, which uses a knife as a tool.
+  - a human action of hit with object, where a knife is held by a hand.
+  - a human action of hit with object, where a knife is directed at a target.
+  - a human action of hit with object.
+  - a human action of hit with object, starting with grasping.
+  - a human action of hit with object, which involves using a hand.
+  - a human action of hit with object, which threatens a target.
+- - a human action of wield knife, where making contact comes before pushing.
+  - a human action of wield knife.
+  - a human action of wield knife, where an object is pushed by a hand.
+  - a human action of wield knife, using the hand as a body part.
+  - a human action of wield knife, where pushing precedes toppling.
+  - a human action of wield knife, where reaching precedes making contact.
+  - a human action of wield knife, where an object falls to a surface.
+  - a human action of wield knife, involving a surface.
+  - a human action of wield knife, involving an object as a patient.
+  - a human action of wield knife, where making contact comes before pushing.
+  - a human action of wield knife.
+  - a human action of wield knife, where an object is pushed by a hand.
+- - a human action of knock over, where reaching precedes grasping.
+  - a human action of knock over.
+  - a human action of knock over, where an object is seized by a hand.
+  - a human action of knock over, involving an object as the patient.
+  - a human action of knock over, starting with reaching.
+  - a human action of knock over, utilizing the fingers as a body part.
+  - a human action of knock over, where grasping comes before clutching.
+  - a human action of knock over, where fingers are part of a hand.
+  - a human action of knock over, utilizing the hand as a body part.
+  - a human action of knock over, where clutching precedes securing.
+  - a human action of knock over, where reaching precedes grasping.
+  - a human action of knock over.
+- - a human action of grab stuff, starting with gripping the gun.
+  - a human action of grab stuff, where a gun is aimed at a target.
+  - a human action of grab stuff, where aiming follows gripping the gun.
+  - a human action of grab stuff, where a gun is held by a hand.
+  - a human action of grab stuff, which uses a gun as a tool.
+  - a human action of grab stuff, where steadying the aim comes after aiming.
+  - a human action of grab stuff.
+  - a human action of grab stuff, which targets a specific target.
+  - a human action of grab stuff, where pulling the trigger follows steadying the
+    aim.
+  - a human action of grab stuff, which involves using a hand.
+  - a human action of grab stuff, starting with gripping the gun.
+  - a human action of grab stuff, where a gun is aimed at a target.
+- - a human action of shoot with gun, where placing precedes pressing.
+  - a human action of shoot with gun, where a foot belongs to a person.
+  - a human action of shoot with gun, where a shoe steps on a foot.
+  - a human action of shoot with gun.
+  - a human action of shoot with gun, where pressing precedes lifting.
+  - a human action of shoot with gun, which is directed at a person.
+  - a human action of shoot with gun, which affects a foot.
+  - a human action of shoot with gun, where moving precedes placing.
+  - a human action of shoot with gun, which uses a shoe as a tool.
+  - a human action of shoot with gun, where placing precedes pressing.
+  - a human action of shoot with gun, where a foot belongs to a person.
+  - a human action of shoot with gun, where a shoe steps on a foot.
+- - a human action of step on foot.
+  - a human action of step on foot, where slapping comes before withdrawing.
+  - a human action of step on foot, where a hand contacts a person.
+  - a human action of step on foot, where raising comes before extending.
+  - a human action of step on foot, where aligning comes before slapping.
+  - a human action of step on foot, where a hand is attached to an arm.
+  - a human action of step on foot, where extending comes before aligning.
+  - a human action of step on foot, which involves a person.
+  - a human action of step on foot.
+  - a human action of step on foot, where slapping comes before withdrawing.
+  - a human action of step on foot, where a hand contacts a person.
+  - a human action of step on foot, where raising comes before extending.
+- - a human action of high-five, where raising precedes a toast.
+  - a human action of high-five.
+  - a human action of high-five, which uses a glass as a tool.
+  - a human action of high-five, which involves people.
+  - a human action of high-five, where making a toast precedes clinking glasses.
+  - a human action of high-five, where clinking glasses precedes taking a sip.
+  - a human action of high-five, where a glass contains a beverage.
+  - a human action of high-five, which involves a beverage.
+  - a human action of high-five, where a glass is touched to another glass.
+  - a human action of high-five, where people hold a glass.
+  - a human action of high-five, where raising precedes a toast.
+  - a human action of high-five.
+- - a human action of cheers and drink, where an object is held by hands.
+  - a human action of cheers and drink, where lifting precedes gripping.
+  - a human action of cheers and drink, where an object is supported by arms.
+  - a human action of cheers and drink, where balancing precedes transporting.
+  - a human action of cheers and drink, using arms as a body part.
+  - a human action of cheers and drink, using hands as a body part.
+  - a human action of cheers and drink, starting with lifting.
+  - a human action of cheers and drink, with an object as the patient.
+  - a human action of cheers and drink.
+  - a human action of cheers and drink, where gripping comes before balancing.
+  - a human action of cheers and drink, where an object is held by hands.
+  - a human action of cheers and drink, where lifting precedes gripping.
+- - a human action of carry object, where framing precedes pressing.
+  - a human action of carry object, which involves using a finger.
+  - a human action of carry object, where aiming precedes focusing.
+  - a human action of carry object, where focusing comes before framing.
+  - a human action of carry object, where a camera captures a subject.
+  - a human action of carry object, which uses a camera.
+  - a human action of carry object, where a camera is operated by a finger.
+  - a human action of carry object.
+  - a human action of carry object, starting with aiming.
+  - a human action of carry object, where pressing comes before capturing.
+  - a human action of carry object, which records a subject.
+  - a human action of carry object, where framing precedes pressing.
+- - a human action of take a photo.
+  - a human action of take a photo, where walking precedes tracking.
+  - a human action of take a photo, which has a target person.
+  - a human action of take a photo, where feet move behind a person.
+  - a human action of take a photo, which uses feet.
+  - a human action of take a photo, where observing precedes walking.
+  - a human action of take a photo, where feet walk on a path.
+  - a human action of take a photo, which uses a path.
+  - a human action of take a photo, where tracking precedes maintaining.
+  - a human action of take a photo.
+  - a human action of take a photo, where walking precedes tracking.
+  - a human action of take a photo, which has a target person.
+- - a human action of follow, which targets the ear.
+  - a human action of follow, which uses the mouth.
+  - a human action of follow, which conveys a message.
+  - a human action of follow, where speaking precedes withdrawing.
+  - a human action of follow, where approaching precedes leaning.
+  - a human action of follow, where the mouth delivers a message.
+  - a human action of follow.
+  - a human action of follow, where leaning comes before speaking.
+  - a human action of follow, where the mouth is close to the ear.
+  - a human action of follow, which targets the ear.
+  - a human action of follow, which uses the mouth.
+  - a human action of follow, which conveys a message.
+- - a human action of whisper, where objects are held by hands.
+  - a human action of whisper, where offering precedes releasing.
+  - a human action of whisper, which involves objects.
+  - a human action of whisper, starting with offering.
+  - a human action of whisper, which involves people.
+  - a human action of whisper, which uses hands.
+  - a human action of whisper, where releasing comes before receiving.
+  - a human action of whisper.
+  - a human action of whisper, where objects are transferred between people.
+  - a human action of whisper, where receiving precedes accepting.
+  - a human action of whisper, where objects are held by hands.
+  - a human action of whisper, where offering precedes releasing.
+- - a human action of exchange things, which helps a person.
+  - a human action of exchange things, which uses the arm.
+  - a human action of exchange things, where bracing precedes stabilizing.
+  - a human action of exchange things, which uses the body.
+  - a human action of exchange things, where stabilizing comes before assisting.
+  - a human action of exchange things, where an arm supports a person.
+  - a human action of exchange things.
+  - a human action of exchange things, where approaching precedes positioning.
+  - a human action of exchange things, where the body stabilizes a person.
+  - a human action of exchange things, where positioning comes before bracing.
+  - a human action of exchange things, which helps a person.
+  - a human action of exchange things, which uses the arm.
+- - a human action of support somebody, where preparing precedes shaking.
+  - a human action of support somebody, where revealing comes before comparing.
+  - a human action of support somebody, which uses fingers as a body part.
+  - a human action of support somebody, which involves creating gestures.
+  - a human action of support somebody, where hands form gestures.
+  - a human action of support somebody.
+  - a human action of support somebody, which uses hands as a body part.
+  - a human action of support somebody, where fingers are part of hands.
+  - a human action of support somebody, where forming precedes revealing.
+  - a human action of support somebody, where shaking comes before forming.
+  - a human action of support somebody, where preparing precedes shaking.
+  - a human action of support somebody, where revealing comes before comparing.
+- - a human action of rock-paper-scissors, which has the patient as cream.
+  - a human action of rock-paper-scissors, which uses fingers as a body part.
+  - a human action of rock-paper-scissors, which has the destination as hand.
+  - a human action of rock-paper-scissors, where cream is spread by fingers.
+  - a human action of rock-paper-scissors.
+  - a human action of rock-paper-scissors, dispensing cream precedes dabbing it.
+  - a human action of rock-paper-scissors, dabbing cream precedes spreading it.
+  - a human action of rock-paper-scissors, where cream is applied to the hand.
+  - a human action of rock-paper-scissors, which has the patient as cream.
+  - a human action of rock-paper-scissors, which uses fingers as a body part.
+  - a human action of rock-paper-scissors, which has the destination as hand.
+  - a human action of rock-paper-scissors, where cream is spread by fingers.
