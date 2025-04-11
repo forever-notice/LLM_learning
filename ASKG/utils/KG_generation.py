@@ -53,6 +53,8 @@ Conditions
 Questions
 Should include these fields: [label (i.e., the given action name), obj_li (i.e., object list), obj_rel_triples (i.e., object-object relation triples), act_obj_triples (i.e., action-object relation triples), sub_act_li (i.e., sub-action entity list), sub_act_rel_triples (i.e., subaction-subaction relation triples)], under the root "given action name". The triples should be in this format: <...,...,...>.
 
+IMPORTANT: Do not include backticks (```) or yaml tags in your response. Just return the YAML content directly. 
+
 [{label}]
 """
     
@@ -72,25 +74,33 @@ Should include these fields: [label (i.e., the given action name), obj_li (i.e.,
         )
         content = response.choices[0]["message"]["content"].strip()
         
+        # Remove any YAML and code block markers that might be present
+        content = content.replace('```yaml', '').replace('```', '').strip()
+        
         # Try to parse YAML
         try:
             # Parse the returned YAML
             yaml_content = yaml.safe_load(content)
             return yaml_content
-        except yaml.YAMLError:
-            # If parsing fails, return raw content
-            return {label: {"raw_content": content}}
+        except yaml.YAMLError as yaml_error:
+            print(f"YAML parsing error for '{label}': {yaml_error}")
+            # If parsing fails, try to extract just the relevant part
+            if label in content:
+                # Create a dictionary manually with the raw content
+                return {label: {"raw_content": content}}
+            else:
+                return {label: {"error": f"Failed to parse YAML: {str(yaml_error)}", "raw_content": content}}
             
-    except Exception as e:
-        print(f"Error generating KG for '{label}': {e}")
-        return {label: {"error": str(e)}}
+    except Exception as api_error:
+        print(f"Error generating KG for '{label}': {api_error}")
+        return {label: {"error": str(api_error)}}
     finally:
         end_time = time.time()
         print(f"Time to process '{label}': {end_time - start_time:.3f} seconds")
 
 def main():
     # File path configuration
-    root_path = "/usr1/home/s124mdg53_04/Dissertation/ASKG_utils"  # Set your root directory path here
+    root_path = "/Users/fgg/Desktop/code/ASKG/utils"  # Set your root directory path here
     input_file = os.path.join(root_path, "test.txt")
     output_file = os.path.join(root_path, "action_knowledge_graph.yaml")
     
